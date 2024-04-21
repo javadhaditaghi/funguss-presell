@@ -15,6 +15,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Main from '../main/mainPage';
+import CardMedia from '@mui/material/CardMedia';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Services', 'Pages', 'Blogs', 'Contact us'];
@@ -30,14 +31,14 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography
-            variant="h6"
-            component="div"
-            fontSize={30}
-            fontFamily={"Oswald"}
-            fontWeiight={700}
-          >
-            The Consumer Magazine
-          </Typography>
+        variant="h6"
+        component="div"
+        fontSize={30}
+        fontFamily={"Oswald"}
+        fontWeiight={700}
+      >
+        The Consumer Magazine
+      </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -58,49 +59,57 @@ function DrawerAppBar(props) {
       <CssBaseline />
       <AppBar component="nav" >
         <Box >
-        <Toolbar sx={{ maxWidth:{md:"97%", lg:"85%", xl:"75%" }, m: "auto"}}>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { md: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, py:2 }}>
-          <Box sx={{mr: 1}}>
-          <img
-       
-        src="public/logo.png"
-        alt="The Consumer Magazine"
-        loading="lazy"
-      />
-          </Box>
-          <Box>
-          <Typography
-            variant="h6"
-            component="div"
-            fontSize={42}
-            fontFamily={"Oswald"}
-            fontWeiight={700}
-            
-          >
-            The Consumer Magazine
-          </Typography>
-          <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={18} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
-          </Box>
-          </Box>
-          <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
+          <Toolbar sx={{ maxWidth: { md: "100%", lg: "93%", xl: "75%" }, m: "auto" }}>
+
+            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' }, py: 2 }}>
+              <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <Box sx={{ mr: 1 }}>
+
+                  <CardMedia
+                    component="img"
+                    src="public/logo.png"
+                    alt="The Consumer Magazine"
+                    loading="lazy"
+                    sx={{ width: { xs: "40px", md: "auto" } }}
+                  />
+                </Box>
+                <IconButton
+                  color="inherit"
+                  aria-label="open drawer"
+                  edge="start"
+                  onClick={handleDrawerToggle}
+                  sx={{ display: { md: 'none' } }}
+                >
+                  <MenuIcon />
+                </IconButton>
+
+              </Box>
+
+
+              <Box>
+                <Typography
+                  variant="h6"
+                  component="div"
+                  sx={{ fontSize: { sm: 30, md: 42 } }}
+                  fontFamily={"Oswald"}
+                  fontWeiight={700}
+
+                >
+                  The Consumer Magazine
+                </Typography>
+                <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={18} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
+              </Box>
+            </Box>
+            <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+              {navItems.map((item) => (
+                <Button key={item} sx={{ color: '#fff' }}>
+                  {item}
+                </Button>
+              ))}
+            </Box>
+          </Toolbar>
         </Box>
-      </AppBar>
+      </AppBar >
       <nav>
         <Drawer
           container={container}
@@ -119,9 +128,9 @@ function DrawerAppBar(props) {
         </Drawer>
       </nav>
       <Box component="main">
-        <Main />   
+        <Main />
       </Box>
-    </Box>
+    </Box >
   );
 }
 
