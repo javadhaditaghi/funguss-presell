@@ -79,8 +79,9 @@ function DrawerAppBar(props) {
                   edge="start"
                   onClick={handleDrawerToggle}
                   sx={{ display: { md: 'none' } }}
+
                 >
-                  <MenuIcon />
+                  <MenuIcon size='large' />
                 </IconButton>
 
               </Box>

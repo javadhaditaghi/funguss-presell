@@ -17,7 +17,7 @@ export default function QualityCard({ icon, title, subtitle }) {
                     {title}
                 </Typography>
 
-                <Typography sx={{ fontSize: 17.6 }} component="div" fontFamily={"DM Sans"} color="#ffffff" col>
+                <Typography sx={{ fontSize: 17.6, display: { xs: "none", md: "block" } }} component="div" fontFamily={"DM Sans"} color="#ffffff" col>
                     {subtitle}
                 </Typography>
 
