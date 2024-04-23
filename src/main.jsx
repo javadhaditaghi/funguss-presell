@@ -13,7 +13,7 @@ const theme = createTheme({
   palette: {
     // Blue Color variation
     primary: {
-      
+
       light: '#5C645E',
       main: '#344038',
       dark: '#2D3928',
@@ -26,7 +26,7 @@ const theme = createTheme({
       dark: '#28A745',
       contrastText: '#fff',
     }
-    
+
   },
 });
 

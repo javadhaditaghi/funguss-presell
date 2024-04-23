@@ -31,11 +31,11 @@ const MobileHeader = () => {
                     <TopText />
                 </Grid2>
                 <Grid2 xs={6} md={3.5} lg={2.5} sx={{ paddingX: "10px", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
-                    <QualityCard icon={<Quality />} title="Satisfaction Guarantee" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
+                    <QualityCard icon={<Quality />} bot={-107} title="Satisfaction Guarantee" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
 
                 </Grid2>
                 <Grid2 xs={6} md={3.5} lg={2.5} sx={{ paddingX: "10px", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
-                    <QualityCard icon={<Doctor />} title="Professional Therapist" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
+                    <QualityCard icon={<Doctor />} bot={-107} title="Professional Therapist" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
 
                 </Grid2>
                 <Grid2 xs={0} md={.5} lg={1}>
