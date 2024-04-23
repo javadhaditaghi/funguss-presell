@@ -15,9 +15,6 @@ const MainPage = () => {
     <>
 
       <DesktopHeader />
-
-      {/* Mobile version */}
-
       <MobileHeader />
     </>
 

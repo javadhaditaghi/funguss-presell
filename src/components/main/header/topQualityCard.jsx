@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 export default function QualityCard({ icon, title, subtitle }) {
     return (
-        <Card sx={{ position: "relative", bottom: -100, background: "#2D3928", borderRadius: "10px" }}>
+        <Card sx={{ position: "relative", bottom: -107, background: "#2D3928", borderRadius: "10px" }}>
 
             <CardContent sx={{ textAlign: "center" }}>
                 {icon}
