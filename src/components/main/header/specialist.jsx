@@ -22,12 +22,12 @@ export default function Specialist() {
     return (
         <Grid2 container padding={1}>
 
-            <Grid2 xs={0} md={.5} lg={2}>
+            <Grid2 xs={0} md={.5} lg={1.5}>
 
             </Grid2>
             <Grid2 xs={12} md={4} lg={2.1} >
 
-                <Box sx={{ display: "flex", justifyContent: "center", alignItems: 'center', height: "100%", position: "relative", top: { xs: "120%", md: "0" } }}>
+                <Box sx={{ display: "flex", justifyContent: "center", alignItems: 'center', height: "100%", position: "relative", marginTop: { xs: "85px", md: "0" } }}>
                     <Avatar
                         alt="Remy Sharp"
                         src="specialist.jpg"
@@ -46,7 +46,7 @@ export default function Specialist() {
 
 
             </Grid2>
-            <Grid2 xs={0} md={7.5} lg={7}>
+            <Grid2 xs={0} md={7.5} lg={7.5}>
 
             </Grid2>
 

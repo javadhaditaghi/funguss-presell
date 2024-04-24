@@ -23,7 +23,6 @@ export default function QualityCard({ icon, title, subtitle, bot }) {
 
             </CardContent>
 
-
         </Card>
     );
 }

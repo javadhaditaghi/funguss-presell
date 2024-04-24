@@ -24,7 +24,7 @@ const DesktopHeader = () => {
 
             }}>
 
-                <Grid2 xs={0} md={.5} lg={2}>
+                <Grid2 xs={0} md={.5} lg={1.5}>
 
                 </Grid2>
                 <Grid2 xs={12} md={4} lg={4} sx={{ textAlign: { xs: "center", md: "left" }, paddingX: { xs: 3, md: 0 } }} >
@@ -38,7 +38,7 @@ const DesktopHeader = () => {
                     <QualityCard icon={<Doctor />} bot={-107} title="Professional Therapist" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
 
                 </Grid2>
-                <Grid2 xs={0} md={.5} lg={1}>
+                <Grid2 xs={0} md={.5} lg={1.5}>
 
                 </Grid2>
             </Grid2>
