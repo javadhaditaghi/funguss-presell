@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
 import QualityCard from '../header/topQualityCard';
+import ProgressBar from './progressBar';
 
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -12,9 +13,6 @@ const ArticleHeader = () => {
 
     const myYear = d.getFullYear().toString();
     const myMonth = months[d.getMonth()];
-
-
-
 
     return (
         <Grid2 container marginTop={5}>
@@ -28,11 +26,11 @@ const ArticleHeader = () => {
                     <Typography fontSize={14} fontFamily={"Open Sans"} color={"#007BFF"}>Last updated on {myMonth} {myYear}</Typography>
                 </Box>
             </Grid2>
-            <Grid2 xs={6} md={5} lg={3.5} sx={{ paddingX: "10px", }}>
+            <Grid2 xs={12} md={5} lg={3.5} sx={{ paddingX: "10px", display: { xs: "none", md: "block" } }}>
                 <Box>
-                    <QualityCard>
-
+                    <QualityCard topic={` ${myYear}'s Top Rated Nail Fungus Solutions`}>
                     </QualityCard>
+                    <ProgressBar />
                 </Box>
 
             </Grid2>

@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 
 
 
-export default function QualityCard({ icon, title, subtitle, bot }) {
+
+export default function QualityCard({ icon, title, subtitle, bot, topic }) {
     return (
         <Card sx={{ position: "relative", bottom: bot, background: "#2D3928", borderRadius: "10px" }}>
 
@@ -18,6 +19,9 @@ export default function QualityCard({ icon, title, subtitle, bot }) {
 
                 <Typography sx={{ fontSize: 17.6, display: { xs: "none", md: "block" } }} component="div" fontFamily={"DM Sans"} color="#ffffff" col>
                     {subtitle}
+                </Typography>
+                <Typography fontFamily={"Oswald"} color={"#ffffff"} fontSize={25}>
+                    {topic}
                 </Typography>
 
 
