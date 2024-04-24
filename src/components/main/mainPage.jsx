@@ -2,7 +2,7 @@ import DesktopHeader from "./header/header-desktop";
 import MobileHeader from "./header/header-mobile";
 import ArticleHeader from "./articleHeader/articleHeader";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
-import ProductCard from "./product/productCard";
+import Product from "./product/product";
 
 
 const MainPage = () => {
@@ -20,7 +20,7 @@ const MainPage = () => {
         </Grid2>
         <Grid2 xs={11} md={11} lg={9} sx={{ m: "auto" }}>
 
-          <ProductCard />
+          <Product />
 
 
 
