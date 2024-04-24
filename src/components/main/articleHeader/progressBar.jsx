@@ -14,7 +14,7 @@ function LinearProgressWithLabel(props) {
             <Box sx={{ width: '100%' }}>
                 <LinearProgress variant="determinate" {...props} sx={{ height: "25px", borderRadius: 1 }} />
             </Box>
-            <Box sx={{ position: "absolute", top: 5 }}>
+            <Box sx={{ position: "absolute", top: 2.5 }}>
                 <Typography variant="body2" color="#fff" fontFamily={"Open Sans"}>Overall Rating: {`${Math.round(
                     props.value,
                 )}%`}</Typography>

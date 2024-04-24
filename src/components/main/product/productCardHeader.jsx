@@ -10,8 +10,7 @@ const ProductCardHeader = () => {
 
 
             </Box>
-            <Typography variant='subtitle2' color={"#6C757D"} marginTop={1} >— Top Rated Nail Fungus Solution For 18 Months Straight</Typography>
-
+            <Typography variant='subtitle2' color={"#6C757D"} marginTop={1}>— Top Rated Nail Fungus Solution For 18 Months Straight</Typography>
         </>
 
     )
