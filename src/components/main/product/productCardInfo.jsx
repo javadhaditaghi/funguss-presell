@@ -57,7 +57,6 @@ const ProductCardInfo = () => {
             </Grid2>
             <Grid2 md={5}>
                 <ProductCardRating />
-
             </Grid2>
         </Grid2>
 
