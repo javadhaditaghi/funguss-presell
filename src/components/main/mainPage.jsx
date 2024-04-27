@@ -22,11 +22,6 @@ const MainPage = () => {
 
           <Product />
 
-
-
-
-
-
         </Grid2>
         <Grid2 xs={0} md={.5} lg={1.5}>
         </Grid2>
