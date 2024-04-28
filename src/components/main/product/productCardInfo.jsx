@@ -23,7 +23,7 @@ const CustomLink = styled('Link')({
 const ProductCardInfo = () => {
     return (
         <Grid2 container>
-            <Grid2 md={4}>
+            <Grid2 xs={12} md={4}>
                 <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column", height: "100%", alignItems: "center" }}>
 
                     <CardMedia
@@ -36,8 +36,8 @@ const ProductCardInfo = () => {
                 </Box>
 
             </Grid2>
-            <Grid2 md={3}>
-                <Box sx={{ display: "flex", justifyContent: "space-around", flexDirection: "column", height: "100%" }}>
+            <Grid2 xs={12} md={3}>
+                <Box sx={{ display: "flex", justifyContent: "space-around", flexDirection: "column", height: "100%", textAlign: { xs: "center", md: "left" } }}>
                     <Box>
                         <Typography color={"#555"}>Our Rating: <Typography color={"#28A745"} fontWeight={600} sx={{ display: "inline" }}>9.5/10</Typography></Typography>
                         <Typography color={"#555"}>Customer Rating: <Typography color={"#28A745"} fontWeight={600} sx={{ display: "inline" }}>9.5/10</Typography> (576 Votes)</Typography>
@@ -55,7 +55,7 @@ const ProductCardInfo = () => {
                 </Box>
 
             </Grid2>
-            <Grid2 md={5}>
+            <Grid2 xs={12} md={5}>
                 <ProductCardRating />
             </Grid2>
         </Grid2>
