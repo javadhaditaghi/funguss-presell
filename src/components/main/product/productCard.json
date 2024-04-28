@@ -1,0 +1,53 @@
+{
+    "funguss": {
+      "id": 1,
+      "title": "Golden Nutrition Funguss",
+      "rating": 9.5,
+      "customerRating": 9.5,
+      "imgURL": "funguss-package.png",
+      "price": 39.95,
+      "officialWebsite": "https://nailfunguss.com/",
+      "overallRating": 4.8,
+      "reviewerCount": 576,
+      "formulaRate": 100,
+      "userExpRate": 98,
+      "cartificateRate": 99,
+      "priceRate": 100,
+      "backgroundColor": "#E8FFDE",
+      "ribonBackgroundColor": "#8FFF00"
+    },
+    "yanail": {
+        "id": 2,
+        "title": "Yanail",
+        "rating": 8.6,
+        "customerRating": 8.8,
+        "imgURL": "funguss-package.png",
+        "price": 43.99,
+        "officialWebsite": "official_website_url_here",
+        "overallRating": 4.2,
+        "reviewerCount": 576,
+        "formulaRate": 85,
+        "userExpRate": 92,
+        "cartificateRate": 90,
+        "priceRate": 85,
+        "backgroundColor": "#ffff",
+        "ribonBackgroundColor": "#E9ECEF"
+      },
+      "emoniNail": {
+        "id": 3,
+        "title": "EmoniNail",
+        "rating": 7.2,
+        "customerRating": 6.2,
+        "imgURL": "funguss-package.png",
+        "price": 59.95,
+        "officialWebsite": "official_website_url_here",
+        "overallRating": 3.9,
+        "reviewerCount": 433,
+        "formulaRate": 75,
+        "userExpRate": 72,
+        "cartificateRate": 78,
+        "priceRate": 75,
+        "backgroundColor": "#ffff",
+        "ribonBackgroundColor": "#E9ECEF"
+      }
+  }
