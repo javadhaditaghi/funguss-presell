@@ -5,6 +5,7 @@ import ProductText from "./productText"
 import ProsandCons from "./productsProsandCons"
 import jsonData from "./productText.json"
 import cardData from "./productCard.json"
+import Disclaimer from "./disclaimer"
 
 
 const Product = () => {
@@ -44,6 +45,8 @@ const Product = () => {
             </ProductCard>
             <ProductText product={jsonData.yogaMedic} />
             <ProsandCons product="yogaMedic" />
+
+            <Disclaimer />
 
         </>
     )
