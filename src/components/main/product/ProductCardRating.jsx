@@ -30,7 +30,7 @@ export default function ProductCardRating({ product }) {
     return (
         <Box textAlign={"center"}>
             <Typography fontWeight={700} sx={{ fontSize: { xs: "50px", md: '4vw' } }}>{product.overallRating}</Typography>
-            <Rating name="half-rating-read" defaultValue={4.8} precision={0.5} readOnly sx={{ fontSize: { xs: "50px", md: '4vw' } }} />
+            <Rating name="half-rating-read" defaultValue={product.overallRating} precision={0.5} readOnly sx={{ fontSize: { xs: "50px", md: '4vw' } }} />
             <Typography fontWeight={700} sx={{ fontSize: '1.2rem' }}>Based on {product.reviewerCount} reviews</Typography>
 
             <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>

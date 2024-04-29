@@ -24,6 +24,26 @@ const Product = () => {
             <ProductText product={jsonData.yanail} />
             <ProsandCons product="yanail" />
 
+            <ProductCard product={cardData.emoniNail}>
+                <ProductCardHeader product={cardData.emoniNail} />
+                <ProductCardInfo product={cardData.emoniNail} />
+            </ProductCard>
+            <ProductText product={jsonData.emoniNail} />
+            <ProsandCons product="emoniNail" />
+
+            <ProductCard product={cardData.spirularin}>
+                <ProductCardHeader product={cardData.spirularin} />
+                <ProductCardInfo product={cardData.spirularin} />
+            </ProductCard>
+            <ProductText product={jsonData.spirularin} />
+            <ProsandCons product="spirularin" />
+
+            <ProductCard product={cardData.yogaMedic}>
+                <ProductCardHeader product={cardData.yogaMedic} />
+                <ProductCardInfo product={cardData.yogaMedic} />
+            </ProductCard>
+            <ProductText product={jsonData.yogaMedic} />
+            <ProsandCons product="yogaMedic" />
 
         </>
     )

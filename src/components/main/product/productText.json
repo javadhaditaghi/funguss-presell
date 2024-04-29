@@ -90,6 +90,139 @@
           "The company claimed that you can see the results in only 2 weeks. The pricing is also fair."
         ]
       }
+    },
+    "emoniNail": {
+      "introduction": {
+       "title": "",
+       "content": [
+          "It is mentioned on the website that EmoniNail™ Nail Fungus Solution is designed to penetrate the nail bed and destroy the fungus where it lives.",
+           "This product contains an acceptable amount of ingredients and reasonable customer satisfaction, leading us to place it as the third product on our website."
+       ]
+
+      },
+     "formula": {
+       "title": "Formula",
+       "content": [
+         "EmoniNail contains undecylenic acid, tea tree oil, and sunflower seed oil. It only contains there three antifungal ingredients.",
+         "Infection can be prevented from spreading to other nails with undecylenic acid. Similarly, tea tree oil has antiseptic as well as soothing properties.",
+         "A sunflower oil, however, can also reduce the risk of adverse reactions to other ingredients due to its hypoallergenic properties."
+       ]
+     },
+     
+     "user experience": {
+       "title": "Users Experience",
+       "content": [
+         "Many users experienced a very slow pace in the process of improvement. Moreover, most believe it could contain more rare and natural ingredients.",
+         "EmoniNail only contains the main ingredients in the first two products; therefore, it is not as powerful as them."
+       ]
+     },
+     
+     "certificates and price": {
+       "title": "Certificates and price",
+       "content": [
+         "Although EmoniNail is a good and cheap solution, the website has no claimed certificate.",
+         "There is no clue that it is produced under FDA facilities. Moreover, we couldn't find any information about its natural source or lab test."
+       ]
+     },
+     
+     "bottom-line": {
+       "title": "Bottom-line",
+       "content": [
+         "EmoniNail is one of the market's greatest products because of its key ingredients and reasonable price; however, it does not contain the wide variety that the first product contains.",
+         "Moreover, many users reported its slow effectiveness. Also, it seems that this product does not contain the necessary certificates."
+       ]
+     }
+   },
+   "spirularin": {
+     "introduction": {
+      "title": "",
+      "content": [
+         "Spirularin Nail Serum is another product in the market that is specially designed for thin nails and acts as a growth serum and nail hardener.",
+          "It is also claimed to contain natural active ingredients that provide broad-spectrum protection and aid nutrient-deficient and healthy nails in the production and regeneration of nail cells."
+      ]
+
+     },
+    "formula": {
+      "title": "Formula",
+      "content": [
+        "Spirularin contains spirulina, jojoba oil, and liquorice root; each one with benefits for nails.",
+        "Spirulina is rich in nutrients, including vitamins, minerals, and antioxidants. It contains biotin, a B-vitamin that is often associated with promoting nail strength and growth.",
+        "Jojoba oil can help keep the nails and surrounding skin moisturized, which is important for preventing further damage and promoting overall nail health. Also, keeping the cuticles soft and moisturized can help create a protective barrier against fungal infections.",
+        "Licorice root's anti-inflammatory properties and antioxidant properties may help alleviate some of the discomfort associated with nail fungus.",
+        "Although it is mentioned that the compound blend has antifungal qualities, only one or two of the ingredients are specifically designed to treat nail fungus, so relying solely on them may not effectively eliminate a fungal infection."
+      ]
+    },
+    
+    "user experience": {
+      "title": "Users Experience",
+      "content": [
+        "Many users reported that they experienced very little improvement.",
+        "Also, some reviewers considered the price of it as fair."
+      ]
+    },
+    
+    "certificates and price": {
+      "title": "Certificates and price",
+      "content": [
+        "There is no evidence that the product is lab-tested or produced in an FDA-certified facility."
+      ]
+    },
+    
+    "bottom-line": {
+      "title": "Bottom-line",
+      "content": [
+        "In summary, Spirularin Nail Serum offers a blend of natural ingredients like spirulina, jojoba oil, and licorice root, each with potential benefits for nail health.",
+        "While it claims to provide broad-spectrum protection and aid nail growth, it's important to note that it may not effectively eliminate fungal infections due to the limited antifungal properties of its ingredients.",
+        "User experiences vary, with some reporting minimal improvement.",
+        "Additionally, the lack of evidence regarding lab testing and FDA certification raises concerns about product quality and safety.",
+        "Consider these factors when evaluating its suitability for your nail care needs."
+
+      ]
     }
+   },
+   "yogaMedic": {
+     "introduction": {
+      "title": "",
+      "content": [
+         "It is claimed on its website that YogaMedic Fungal Nail Solution can eliminate severe nail fungus within 20 seconds.",
+          "It is also claimed that it contains active ingredients like essential oils and B vitamins."
+      ]
+
+     },
+    "formula": {
+      "title": "Formula",
+      "content": [
+        "The active ingredients inside the YogaMedic Fungal Nail Solution are lavender, eucalyptus, and citrus, alongside vitamin B7 (biotin). Lavender essential oil is known for its antimicrobial and antifungal properties.",
+        "Eucalyptus oil also has antimicrobial properties, which can be helpful in managing nail fungus. Citrus fruits, such as oranges, lemons, and grapefruits, are rich in vitamin C and other antioxidants.",
+        "And finally, Biotin is a B vitamin that plays a role in promoting healthy nails, hair, and skin."
+      ]
+    },
+    
+    "user experience": {
+      "title": "Users Experience",
+      "content": [
+        "Many customers strongly reported that this product did not work for them. Still, some others reported a long period to see results.",
+        "Some users doubted the natural origin of this product because of the doubtful presentation of the ingredients in it."
+      ]
+    },
+    
+    "certificates and price": {
+      "title": "Certificates and price",
+      "content": [
+        "It is claimed that this product is EU and clinically tested. Also, the price is reasonable and it has patented ingredients."
+      ]
+    },
+    
+    "bottom-line": {
+      "title": "Bottom-line",
+      "content": [
+        "YogaMedic Fungal Nail Solution contains a range of active and inactive unmentioned ingredients. Some of the mentioned ingredients are lavender, eucalyptus, and citrus, alongside vitamin B7 (biotin).",
+        "They are nourishing, antioxidant, and antifungal ingredients.",
+        "User experiences vary, with some reporting minimal improvement.",
+        "Many customers reported that it does not work or it takes a long time to work.",
+        "Finally, although the product has low customer satisfaction, it is produced in the EU and is clinically tested."
+      ]
+    }
+  }
   }
   
