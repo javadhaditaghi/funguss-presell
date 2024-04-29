@@ -3,6 +3,8 @@ import MobileHeader from "./header/header-mobile";
 import ArticleHeader from "./articleHeader/articleHeader";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
 import Product from "./product/product";
+import Footer from "./footer/footer";
+
 
 
 const MainPage = () => {
@@ -28,6 +30,7 @@ const MainPage = () => {
 
 
       </Grid2>
+      <Footer />
     </>
 
 
