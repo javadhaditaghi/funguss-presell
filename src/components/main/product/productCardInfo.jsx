@@ -9,7 +9,6 @@ import ProductCardRating from './ProductCardRating';
 
 
 const CustomLink = styled(Link)({
-    display: 'block',
     textDecoration: 'none',
     cursor: 'pointer',
     display: 'inline-block',

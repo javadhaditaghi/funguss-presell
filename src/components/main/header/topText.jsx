@@ -9,10 +9,10 @@ const TopText = () => {
                 WELCOME TO CONSUMER MAG
             </Typography>
             <Typography fontFamily={"Poppins"} color={"#2D3928"} fontSize={{ xs: 38, md: 38, lg: 51, xl: 65 }} fontWeight={600}>
-                Keep Your Feet Strong & Health
+                Your Ultimate Guide to Healthy Toenails
             </Typography>
             <Typography fontFamily={"DM Sans"} color={"#3A3A3A"} fontSize={"17.6px"} fontWeight={400} sx={{ display: { xs: "none", md: "block" } }}>
-                Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
+                Find out the best fungal infection treatments chosen by experts in our consumer magazine.
             </Typography>
             <Button variant="contained" sx={{ marginTop: "15px", backgroundColor: "#5C645E" }} >MAKE APPOINMENT</Button>
         </>

@@ -16,10 +16,10 @@ const Footer = () => {
 
                             <CardMedia
                                 component="img"
-                                src="public/logo.png"
+                                src="logo.webp"
                                 alt="The Consumer Magazine"
-                                loading="lazy"
-                                sx={{ width: { xs: "50px", sm: "70px", md: "auto" } }}
+
+                                sx={{ width: { xs: "50px", sm: "70px", md: "90px" } }}
                             />
                         </Box>
                     </Box>

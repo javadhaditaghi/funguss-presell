@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -67,10 +66,10 @@ function DrawerAppBar(props) {
 
                   <CardMedia
                     component="img"
-                    src="public/logo.png"
+                    src="logo.webp"
                     alt="The Consumer Magazine"
                     loading="lazy"
-                    sx={{ width: { xs: "40px", md: "auto" } }}
+                    sx={{ width: { xs: "40px", md: "90px" } }}
                   />
                 </Box>
                 <IconButton
