@@ -4,7 +4,7 @@
       "title": "Golden Nutrition Funguss",
       "rating": 9.5,
       "customerRating": 9.5,
-      "imgURL": "funguss-package.png",
+      "imgURL": "funguss.png",
       "price": 39.95,
       "officialWebsite": "https://nailfunguss.com/",
       "overallRating": 4.8,
@@ -21,7 +21,7 @@
         "title": "Yanail",
         "rating": 8.6,
         "customerRating": 8.8,
-        "imgURL": "funguss-package.png",
+        "imgURL": "yanail.png",
         "price": 43.99,
         "officialWebsite": "official_website_url_here",
         "overallRating": 4.2,
@@ -31,14 +31,14 @@
         "cartificateRate": 90,
         "priceRate": 85,
         "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#E9ECEF"
+        "ribonBackgroundColor": "#C1E297"
       },
       "emoniNail": {
         "id": 3,
         "title": "EmoniNail™",
         "rating": 7.2,
         "customerRating": 6.2,
-        "imgURL": "funguss-package.png",
+        "imgURL": "emoniNail.png",
         "price": 59.95,
         "officialWebsite": "official_website_url_here",
         "overallRating": 3.9,
@@ -48,14 +48,14 @@
         "cartificateRate": 78,
         "priceRate": 75,
         "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#E9ECEF"
+        "ribonBackgroundColor": "#C1E297"
       },
       "spirularin": {
         "id": 4,
         "title": "Spirularin",
         "rating": 6.5,
         "customerRating": 6.8,
-        "imgURL": "funguss-package.png",
+        "imgURL": "spirularin.png",
         "price": 34.99,
         "officialWebsite": "official_website_url_here",
         "overallRating": 3.5,
@@ -65,14 +65,14 @@
         "cartificateRate": 59,
         "priceRate": 95,
         "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#E9ECEF"
+        "ribonBackgroundColor": "#C1E297"
       },
       "yogaMedic": {
         "id": 5,
         "title": "YogaMedic",
         "rating": 5.9,
         "customerRating": 5.6,
-        "imgURL": "funguss-package.png",
+        "imgURL": "yogamedic.png",
         "price": 37.95,
         "officialWebsite": "official_website_url_here",
         "overallRating": 3,
@@ -82,6 +82,6 @@
         "cartificateRate": 65,
         "priceRate": 99,
         "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#E9ECEF"
+        "ribonBackgroundColor": "#C1E297"
       }
   }

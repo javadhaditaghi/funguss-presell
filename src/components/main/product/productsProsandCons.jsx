@@ -17,7 +17,7 @@ const ProsandCons = ({ product }) => {
 
             {
                 jsonData[product].pros.map((pro, index) => (
-                    <Box key={index} sx={{ display: "flex", alignItems: "center", py: "2px" }}>
+                    <Box key={index} sx={{ display: "flex", alignItems: { md: "center" }, py: "2px" }}>
                         <Pros />
                         <Typography>{pro}</Typography>
                     </Box>
@@ -27,7 +27,7 @@ const ProsandCons = ({ product }) => {
 
             {
                 jsonData[product].cons.map((cons, index) => (
-                    <Box key={index} sx={{ display: "flex", alignItems: "center", py: "2px" }}>
+                    <Box key={index} sx={{ display: "flex", alignItems: { md: "center" }, py: "2px" }}>
                         <Cons />
                         <Typography>{cons}</Typography>
                     </Box>
