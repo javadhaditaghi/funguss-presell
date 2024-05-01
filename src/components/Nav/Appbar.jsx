@@ -16,8 +16,24 @@ import Button from '@mui/material/Button';
 import Main from '../main/mainPage';
 import CardMedia from '@mui/material/CardMedia';
 
+import { Tab } from '@mui/material';
+import { TabContext } from '@mui/lab';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
+
+
+
+
+
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Services', 'Pages', 'Blogs', 'Contact us'];
+const navItems = [
+  ["1", 'Home'],
+  ["2", 'About'],
+  ["3", 'Services'],
+  ["4", 'Pages'],
+  ["5", 'Blogs'],
+  ["6", 'Contact us']
+];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -52,6 +68,14 @@ function DrawerAppBar(props) {
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
+
+
+  const [value, setValue] = React.useState('1');
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
 
   return (
     <Box sx={{ display: 'flex' }}>
@@ -100,12 +124,23 @@ function DrawerAppBar(props) {
                 <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={18} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
               </Box>
             </Box>
-            <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-              {navItems.map((item) => (
+            <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: "space-between", alignItems: "space-between" }}>
+              <TabContext value={value} >
+                <Box>
+                  <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="#ffffff">
+                    {navItems.map((item) => (
+                      <Tab key={item[0]} label={item[1]} value={item[0]} />
+                    ))}
+                  </TabList>
+                </Box>
+
+              </TabContext>
+
+              {/* {navItems.map((item) => (
                 <Button key={item} sx={{ color: '#fff' }}>
                   {item}
                 </Button>
-              ))}
+              ))} */}
             </Box>
           </Toolbar>
         </Box>
@@ -128,7 +163,15 @@ function DrawerAppBar(props) {
         </Drawer>
       </nav>
       <Box component="main">
-        <Main />
+        <TabContext value={value}>
+          <TabPanel sx={{ padding: "0" }} value="1"><Main /></TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="2">Item Two</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="3">Item Three</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="4">Item next</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="5">Item Two</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="6">Item Three</TabPanel>
+        </TabContext>
+
       </Box>
     </Box >
   );

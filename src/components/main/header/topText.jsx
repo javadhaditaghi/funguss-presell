@@ -12,9 +12,9 @@ const TopText = () => {
                 Your Ultimate Guide to Healthy Toenails
             </Typography>
             <Typography fontFamily={"DM Sans"} color={"#3A3A3A"} fontSize={"17.6px"} fontWeight={400} sx={{ display: { xs: "none", md: "block" } }}>
-                Find out the best fungal infection treatments chosen by experts in our consumer magazine.
+                Consumer Magazine is the #1 Website to find out the best fungal infection treatments chosen by experts.
             </Typography>
-            <Button variant="contained" sx={{ marginTop: "15px", backgroundColor: "#5C645E" }} >MAKE APPOINMENT</Button>
+            {/* <Button variant="contained" sx={{ marginTop: "15px", backgroundColor: "#5C645E" }} >MAKE APPOINMENT</Button> */}
         </>
     )
 }
