@@ -114,14 +114,14 @@ function DrawerAppBar(props) {
                 <Typography
                   variant="h6"
                   component="div"
-                  sx={{ fontSize: { sm: 30, md: 42 } }}
+                  sx={{ fontSize: { sm: 30, md: 23, lg: 40, xl: 45 } }}
                   fontFamily={"Oswald"}
                   fontWeiight={700}
 
                 >
                   The Consumer Magazine
                 </Typography>
-                <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={18} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
+                <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={14} sx={{ fontSize: { sm: 14, lg: 16 } }} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
               </Box>
             </Box>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: "space-between", alignItems: "space-between" }}>
@@ -136,11 +136,6 @@ function DrawerAppBar(props) {
 
               </TabContext>
 
-              {/* {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff' }}>
-                  {item}
-                </Button>
-              ))} */}
             </Box>
           </Toolbar>
         </Box>

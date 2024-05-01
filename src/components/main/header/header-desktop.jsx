@@ -16,10 +16,10 @@ const DesktopHeader = () => {
         }}>
 
             <Grid2 container sx={{
-                backgroundImage: "url('nail-funguss.png')",
+                backgroundImage: "url('headerphoto.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                height: "80vh",
+                height: "87vh",
                 width: "100vw",
 
             }}>

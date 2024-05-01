@@ -16,10 +16,11 @@ const MobileHeader = () => {
             }
         }}>
             <Grid2 container sx={{
-                backgroundImage: "url('nail-funguss-mobile.png')",
+                backgroundImage: "url('header-mobile.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 width: "100vw",
+                height: "82vh"
 
             }}>
 
