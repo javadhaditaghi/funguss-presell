@@ -12,14 +12,15 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Main from '../main/mainPage';
+import MainPage from '../main/mainPage';
 import CardMedia from '@mui/material/CardMedia';
 
 import { Tab } from '@mui/material';
 import { TabContext } from '@mui/lab';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import About from '../main/about';
+import Footer from '../main/footer/footer';
 
 
 
@@ -159,13 +160,14 @@ function DrawerAppBar(props) {
       </nav>
       <Box component="main">
         <TabContext value={value}>
-          <TabPanel sx={{ padding: "0" }} value="1"><Main /></TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="2">Item Two</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="1"><MainPage /></TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="2"><About /></TabPanel>
           <TabPanel sx={{ padding: "0" }} value="3">Item Three</TabPanel>
           <TabPanel sx={{ padding: "0" }} value="4">Item next</TabPanel>
           <TabPanel sx={{ padding: "0" }} value="5">Item Two</TabPanel>
           <TabPanel sx={{ padding: "0" }} value="6">Item Three</TabPanel>
         </TabContext>
+        <Footer />
 
       </Box>
     </Box >

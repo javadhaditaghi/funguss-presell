@@ -28,7 +28,7 @@ const MainPage = () => {
         </Grid2>
       </Grid2>
 
-      <Footer />
+
     </>
 
 

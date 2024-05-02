@@ -47,6 +47,7 @@ const Footer = () => {
             </Grid2>
 
 
+
         </Grid2>
 
     )
