@@ -5,6 +5,8 @@ import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
 import Product from "./product/product";
 import Footer from "./footer/footer";
 import FAQ from "./FAQ.jsx/faq";
+import HeaderText from "./header/main-header-text";
+import Specialist from "./header/specialist";
 
 
 
@@ -14,7 +16,7 @@ const MainPage = () => {
     // Desktop version
     <>
 
-      <DesktopHeader />
+      <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
       <MobileHeader />
       <ArticleHeader />
       <Grid2 container>

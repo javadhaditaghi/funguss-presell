@@ -21,6 +21,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import About from '../main/about';
 import Footer from '../main/footer/footer';
+import Contactus from '../main/contactus';
 
 
 
@@ -40,6 +41,12 @@ function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
+  const [value, setValue] = React.useState('1');
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
@@ -56,26 +63,23 @@ function DrawerAppBar(props) {
         The Consumer Magazine
       </Typography>
       <Divider />
-      <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+      <TabContext value={value} >
+        <Box>
+          <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="#ffffff" orientation="vertical">
+            {navItems.map((item) => (
+              <Tab key={item[0]} label={item[1]} value={item[0]} />
+            ))}
+          </TabList>
+        </Box>
+
+      </TabContext>
     </Box>
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
 
 
-  const [value, setValue] = React.useState('1');
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
 
 
   return (
@@ -165,7 +169,7 @@ function DrawerAppBar(props) {
           <TabPanel sx={{ padding: "0" }} value="3">Item Three</TabPanel>
           <TabPanel sx={{ padding: "0" }} value="4">Item next</TabPanel>
           <TabPanel sx={{ padding: "0" }} value="5">Item Two</TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="6">Item Three</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="6"><Contactus /></TabPanel>
         </TabContext>
         <Footer />
 
