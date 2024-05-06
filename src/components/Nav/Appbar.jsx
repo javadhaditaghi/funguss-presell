@@ -31,10 +31,8 @@ const drawerWidth = 240;
 const navItems = [
   ["1", 'Home'],
   ["2", 'About'],
-  ["3", 'Services'],
-  ["4", 'Pages'],
-  ["5", 'Blogs'],
-  ["6", 'Contact us']
+  ["3", 'Blogs'],
+  ["4", 'Contact us']
 ];
 
 function DrawerAppBar(props) {
@@ -167,9 +165,7 @@ function DrawerAppBar(props) {
           <TabPanel sx={{ padding: "0" }} value="1"><MainPage /></TabPanel>
           <TabPanel sx={{ padding: "0" }} value="2"><About /></TabPanel>
           <TabPanel sx={{ padding: "0" }} value="3">Item Three</TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="4">Item next</TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="5">Item Two</TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="6"><Contactus /></TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="4"><Contactus /></TabPanel>
         </TabContext>
         <Footer />
 
