@@ -37,7 +37,7 @@ const Contactus = () => {
     return (
         <Box width={"100vw"}>
             <DesktopHeader imgURL='contactus-desktop.png' text={<ContactHeaderText />} />
-            <Grid2 container >
+            <Grid2 container sx={{ pt: { xs: 10, md: 0 } }}>
                 <Grid2 xs={0} md={.5} lg={1.5}>
                 </Grid2>
 
@@ -115,16 +115,16 @@ const Contactus = () => {
                             <form>
 
                                 <Box mt={2}>
-                                    <TextField id="Name" label="Name" type="text" sx={{ width: "100%", borderRadius: "10px" }} />
+                                    <TextField id="Name" label="Name" type="text" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
                                 </Box>
                                 <Box mt={2}>
-                                    <TextField id="email" label="Email" type="email" sx={{ width: "100%", borderRadius: "10px" }} />
+                                    <TextField id="email" label="Email" type="email" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
                                 </Box>
                                 <Box mt={2}>
-                                    <TextField id="subject" label="Subject" type="text" sx={{ width: "100%", borderRadius: "10px" }} />
+                                    <TextField id="subject" label="Subject" type="text" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
                                 </Box>
                                 <Box mt={2}>
-                                    <TextField id="Message" label="Your Question" multiline maxRows={10} rows={4} sx={{ width: "100%", borderRadius: "10px" }} />
+                                    <TextField id="Message" label="Your Question" multiline maxRows={10} rows={4} sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
                                 </Box>
 
                                 <Box mt={2} sx={{ width: "100%", textAlign: "center" }}>
