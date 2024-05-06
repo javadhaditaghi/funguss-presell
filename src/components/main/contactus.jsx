@@ -6,6 +6,8 @@ import { ContactInfo, SocialNewtworks } from "../consts/constants"
 import Divider from '@mui/material/Divider'
 import styled from "@emotion/styled"
 import { SvgIcon } from "@mui/material"
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 
 const CustomizedBox = styled(Box)({
@@ -35,12 +37,12 @@ const Contactus = () => {
     return (
         <Box width={"100vw"}>
             <DesktopHeader imgURL='contactus-desktop.png' text={<ContactHeaderText />} />
-            <Grid2 container>
+            <Grid2 container >
                 <Grid2 xs={0} md={.5} lg={1.5}>
                 </Grid2>
 
-                <Grid2 xs={12} md={11} lg={9} sx={{ m: "auto" }} container>
-                    <Grid2 xs={12} md={6} lg={6} container>
+                <Grid2 xs={12} md={11} lg={9} sx={{ m: "auto" }} container >
+                    <Grid2 xs={12} md={6} lg={6} container px={2}>
 
 
 
@@ -102,7 +104,40 @@ const Contactus = () => {
 
 
                     </Grid2>
-                    <Grid2 xs={12} md={6} lg={6} container>
+                    <Grid2 xs={12} md={6} lg={6} container px={2}>
+
+
+                        <Grid2 xs={12} md={12} lg={12} >
+                            <Typography sx={{ paddingTop: "95px", fontSize: "24px" }} fontFamily={"DM Sans"} color={"#2D3928"} fontWeight={600}>
+                                CONTACT US
+                            </Typography>
+
+                            <form>
+
+                                <Box mt={2}>
+                                    <TextField id="Name" label="Name" type="text" sx={{ width: "100%", borderRadius: "10px" }} />
+                                </Box>
+                                <Box mt={2}>
+                                    <TextField id="email" label="Email" type="email" sx={{ width: "100%", borderRadius: "10px" }} />
+                                </Box>
+                                <Box mt={2}>
+                                    <TextField id="subject" label="Subject" type="text" sx={{ width: "100%", borderRadius: "10px" }} />
+                                </Box>
+                                <Box mt={2}>
+                                    <TextField id="Message" label="Your Question" multiline maxRows={10} rows={4} sx={{ width: "100%", borderRadius: "10px" }} />
+                                </Box>
+
+                                <Box mt={2} sx={{ width: "100%", textAlign: "center" }}>
+                                    <Button type="submit" variant="contained"  >Send the Message</Button>
+                                </Box>
+                            </form>
+
+
+
+
+                        </Grid2>
+
+
 
 
                     </Grid2>
