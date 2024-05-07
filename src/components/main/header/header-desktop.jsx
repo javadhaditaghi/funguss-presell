@@ -25,7 +25,6 @@ const DesktopHeader = ({ imgURL, text, specialist }) => {
 
                 {text}
 
-
                 <Grid2 xs={0} md={.5} lg={1.5}>
                 </Grid2>
             </Grid2>
