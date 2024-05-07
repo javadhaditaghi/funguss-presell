@@ -5,7 +5,6 @@ import ContactHeaderText from "./header/contact-header-text"
 import { ContactInfo, SocialNewtworks } from "../consts/constants"
 import Divider from '@mui/material/Divider'
 import styled from "@emotion/styled"
-import { SvgIcon } from "@mui/material"
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 

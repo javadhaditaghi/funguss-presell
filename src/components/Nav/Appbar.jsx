@@ -22,6 +22,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import About from '../main/about';
 import Footer from '../main/footer/footer';
 import Contactus from '../main/contactus';
+import Blogs from '../main/blogs';
 
 
 
@@ -164,7 +165,7 @@ function DrawerAppBar(props) {
         <TabContext value={value}>
           <TabPanel sx={{ padding: "0" }} value="1"><MainPage /></TabPanel>
           <TabPanel sx={{ padding: "0" }} value="2"><About /></TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="3">Item Three</TabPanel>
+          <TabPanel sx={{ padding: "0" }} value="3"><Blogs /></TabPanel>
           <TabPanel sx={{ padding: "0" }} value="4"><Contactus /></TabPanel>
         </TabContext>
         <Footer />
