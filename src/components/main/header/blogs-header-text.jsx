@@ -14,7 +14,7 @@ export function ToRight() {
 
 const BlogsHeaderText = () => {
     return (
-        <Box sx={{ height: "100%", mt: "650px" }}>
+        <Box sx={{ mt: "650px" }}>
             <Typography fontFamily={"Poppins"} fontSize={"16px"} color={"#ffffff"} letterSpacing={2.4}>Featured</Typography>
             <Box sx={{ display: "flex", justifyContent: "flex-start", gap: 1 }}>
                 <Typography fontFamily={"Poppins"} color={"#ffffff"} fontSize={"70px"} fontWeight={600} >Breaking Into Potato Design</Typography>
