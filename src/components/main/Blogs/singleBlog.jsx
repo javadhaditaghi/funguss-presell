@@ -2,9 +2,9 @@ import * as React from 'react';
 import { CardActionArea, Avatar, Typography, CardMedia, CardContent, Card, Box } from '@mui/material';
 
 
-export default function BlogCard() {
+export default function BlogCard({ title, description, writer }) {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ margin: "20px" }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -15,11 +15,10 @@ export default function BlogCard() {
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" fontFamily={"Oswald"} fontSize={"28px"} component="div">
-                        Lizard
+                        {title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        {description}
                     </Typography>
                     <Box sx={{ display: "flex", alignItems: "center", justifyContent: "flex-start", gap: 1, mt: 2 }}>
                         <Avatar
@@ -27,7 +26,7 @@ export default function BlogCard() {
                             src="/static/images/avatar/1.pg"
                             sx={{ width: 50, height: 50 }}>Ra</Avatar>
                         <Box>
-                            <Typography fontFamily={"Open Sans"} fontSize={16}>Remy Sharp</Typography>
+                            <Typography fontFamily={"Open Sans"} fontSize={16}>{writer}</Typography>
                             <Typography fontFamily={"Open Sans"} fontSize={13}>Expert</Typography>
                         </Box>
                     </Box>
