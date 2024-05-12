@@ -34,7 +34,7 @@ const Blogs = () => {
                     <Grid2 container>
                         {blogItems.map((blog, index) => (
                             <Grid2 xs={12} sm={6} md={6} xl={4} key={index}>
-                                <BlogCard title={blog.blogName} description={blog.ShortDescription} writer={blog.writer} />
+                                <BlogCard blog={blog} title={blog.blogName} description={blog.ShortDescription} writer={blog.writer} />
                             </Grid2>
 
                         ))}

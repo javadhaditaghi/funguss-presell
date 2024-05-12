@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 export default function BlogCard({ title, description, writer }) {
     return (
-        <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`reviews/blogs/${title.split(' ').join('_')}`} >
+        <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`/reviews/blogs/${encodeURIComponent(title.split(' ').join('_'))}`} >
             <CardActionArea>
                 <CardMedia
                     component="img"
                     height="170"
                     image="blogSection.png"
-                    alt="green iguana"
+                    alt={title}
 
                 />
                 <CardContent>

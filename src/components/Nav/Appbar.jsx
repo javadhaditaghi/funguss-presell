@@ -19,6 +19,7 @@ import Contactus from '../main/contactus';
 import Blogs from '../main/blogs';
 import { Route, Link, Routes } from 'react-router-dom';
 import BlogContent from '../main/Blogs/BlogContent';
+import blogData from '../main/Blogs/blogsData.json'
 
 
 
@@ -86,7 +87,6 @@ function DrawerAppBar(props) {
                     component="img"
                     src="logo.webp"
                     alt="The Consumer Magazine"
-                    loading="lazy"
                     sx={{ width: { xs: "40px", md: "90px" } }}
                   />
                 </Box>
@@ -156,14 +156,15 @@ function DrawerAppBar(props) {
           <Route path='reviews/' element={<MainPage />} />
           <Route path='reviews/about' element={<About />} />
           <Route path='reviews/blogs' element={<Blogs />} />
-          <Route path='reviews/blogs:title' element={<BlogContent />} />
+          <Route path='reviews/blogs/:title' element={<BlogContent />} />
           <Route path='reviews/contactus' element={<Contactus />} />
         </Routes>
 
         <Footer />
 
+
       </Box>
-    </Box >
+    </Box>
   );
 }
 
