@@ -5,24 +5,21 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import MainPage from '../main/mainPage';
 import CardMedia from '@mui/material/CardMedia';
+import { Button } from '@mui/material';
 
-import { Tab } from '@mui/material';
-import { TabContext } from '@mui/lab';
-import TabList from '@mui/lab/TabList';
-import TabPanel from '@mui/lab/TabPanel';
 import About from '../main/about';
 import Footer from '../main/footer/footer';
 import Contactus from '../main/contactus';
 import Blogs from '../main/blogs';
+import { Route, Link, Routes } from 'react-router-dom';
+
+
 
 
 
@@ -30,21 +27,15 @@ import Blogs from '../main/blogs';
 
 const drawerWidth = 240;
 const navItems = [
-  ["1", 'Home'],
-  ["2", 'About'],
-  ["3", 'Blogs'],
-  ["4", 'Contact us']
+  ["1", 'Home', "/reviews/"],
+  ["2", 'About', "/reviews/about"],
+  ["3", 'Blogs', "/reviews/blogs"],
+  ["4", 'Contact us', "/reviews/contactus"],
 ];
 
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const [value, setValue] = React.useState('1');
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -62,16 +53,14 @@ function DrawerAppBar(props) {
         The Consumer Magazine
       </Typography>
       <Divider />
-      <TabContext value={value} >
-        <Box>
-          <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="#ffffff" orientation="vertical">
-            {navItems.map((item) => (
-              <Tab key={item[0]} label={item[1]} value={item[0]} />
-            ))}
-          </TabList>
-        </Box>
+      <Box>
+        {navItems.map((item) => (
+          <Button key={item[0]} component={Link} to={item[2]} sx={{ display: "block" }}>{item[1]}</Button>
+        ))}
 
-      </TabContext>
+      </Box>
+
+
     </Box>
   );
 
@@ -118,7 +107,7 @@ function DrawerAppBar(props) {
                 <Typography
                   variant="h6"
                   component="div"
-                  sx={{ fontSize: { sm: 30, md: 23, lg: 40, xl: 45 } }}
+                  sx={{ fontSize: { sm: 30, md: 38, lg: 40, xl: 45 } }}
                   fontFamily={"Oswald"}
                   fontWeiight={700}
 
@@ -129,16 +118,16 @@ function DrawerAppBar(props) {
               </Box>
             </Box>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: "space-between", alignItems: "space-between" }}>
-              <TabContext value={value} >
-                <Box>
-                  <TabList onChange={handleChange} aria-label="lab API tabs example" textColor="#ffffff">
-                    {navItems.map((item) => (
-                      <Tab key={item[0]} label={item[1]} value={item[0]} />
-                    ))}
-                  </TabList>
-                </Box>
 
-              </TabContext>
+              <Box>
+
+                {navItems.map((item) => (
+                  <Button key={item[0]} component={Link} sx={{ color: "#ffffff" }} to={item[2]}>{item[1]}</Button>
+                ))}
+
+              </Box>
+
+
 
             </Box>
           </Toolbar>
@@ -162,12 +151,13 @@ function DrawerAppBar(props) {
         </Drawer>
       </nav>
       <Box component="main">
-        <TabContext value={value}>
-          <TabPanel sx={{ padding: "0" }} value="1"><MainPage /></TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="2"><About /></TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="3"><Blogs /></TabPanel>
-          <TabPanel sx={{ padding: "0" }} value="4"><Contactus /></TabPanel>
-        </TabContext>
+        <Routes>
+          <Route path='reviews/' element={<MainPage />} />
+          <Route path='reviews/about' element={<About />} />
+          <Route path='reviews/blogs' element={<Blogs />} />
+          <Route path='reviews/contactus' element={<Contactus />} />
+        </Routes>
+
         <Footer />
 
       </Box>
