@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { CardActionArea, Avatar, Typography, CardMedia, CardContent, Card, Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 export default function BlogCard({ title, description, writer }) {
     return (
-        <Card sx={{ margin: "20px" }}>
+        <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`reviews/blogs/${title.split(' ').join('_')}`} >
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -24,7 +25,7 @@ export default function BlogCard({ title, description, writer }) {
                         <Avatar
                             alt="Remy Sharp"
                             src="/static/images/avatar/1.pg"
-                            sx={{ width: 50, height: 50 }}>Ra</Avatar>
+                            sx={{ width: 50, height: 50, backgroundColor: "#344038" }}>{writer[0]}</Avatar>
                         <Box>
                             <Typography fontFamily={"Open Sans"} fontSize={16}>{writer}</Typography>
                             <Typography fontFamily={"Open Sans"} fontSize={13}>Expert</Typography>

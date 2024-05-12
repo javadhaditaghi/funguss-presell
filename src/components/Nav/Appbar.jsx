@@ -18,6 +18,7 @@ import Footer from '../main/footer/footer';
 import Contactus from '../main/contactus';
 import Blogs from '../main/blogs';
 import { Route, Link, Routes } from 'react-router-dom';
+import BlogContent from '../main/Blogs/BlogContent';
 
 
 
@@ -155,6 +156,7 @@ function DrawerAppBar(props) {
           <Route path='reviews/' element={<MainPage />} />
           <Route path='reviews/about' element={<About />} />
           <Route path='reviews/blogs' element={<Blogs />} />
+          <Route path='reviews/blogs:title' element={<BlogContent />} />
           <Route path='reviews/contactus' element={<Contactus />} />
         </Routes>
 
