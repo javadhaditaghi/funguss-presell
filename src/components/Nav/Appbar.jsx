@@ -19,7 +19,8 @@ import Contactus from '../main/contactus';
 import Blogs from '../main/blogs';
 import { Route, Link, Routes } from 'react-router-dom';
 import BlogContent from '../main/Blogs/BlogContent';
-import blogData from '../main/Blogs/blogsData.json'
+import blogData from '../main/Blogs/blogsData.json';
+import logoPhoto from '/reviews/src/assets/logo.webp';
 
 
 
@@ -85,7 +86,7 @@ function DrawerAppBar(props) {
 
                   <CardMedia
                     component="img"
-                    src="logo.webp"
+                    src={logoPhoto}
                     alt="The Consumer Magazine"
                     sx={{ width: { xs: "40px", md: "90px" } }}
                   />

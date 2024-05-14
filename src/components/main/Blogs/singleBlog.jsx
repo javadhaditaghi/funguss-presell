@@ -1,16 +1,20 @@
 import * as React from 'react';
 import { CardActionArea, Avatar, Typography, CardMedia, CardContent, Card, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
+import blogPhoto from './blogSection.png'
 
 
-export default function BlogCard({ title, description, writer }) {
+export default function BlogCard({ title, description, writer, useAnotherImage }) {
+    console.log(useAnotherImage)
+    const blogimage = useAnotherImage || blogPhoto;
+
     return (
         <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`/reviews/blogs/${encodeURIComponent(title.split(' ').join('_'))}`} >
             <CardActionArea>
                 <CardMedia
                     component="img"
                     height="170"
-                    image="blogSection.png"
+                    image={blogimage}
                     alt={title}
 
                 />
@@ -31,8 +35,8 @@ export default function BlogCard({ title, description, writer }) {
                             <Typography fontFamily={"Open Sans"} fontSize={13}>Expert</Typography>
                         </Box>
                     </Box>
-
                 </CardContent>
+
             </CardActionArea>
         </Card>
     );
