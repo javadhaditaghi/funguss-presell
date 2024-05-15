@@ -7,6 +7,7 @@ import BlogsPagination from "./Blogs/blogsPagination"
 import { useState } from "react"
 import useMediaQuery from '@mui/material/useMediaQuery';
 import MobileHeader from "./header/header-mobile"
+import BlogContent from "./Blogs/BlogContent"
 
 
 
@@ -34,12 +35,9 @@ const Blogs = () => {
                     <Grid2 container>
                         {blogItems.map((blog, index) => (
                             <Grid2 xs={12} sm={6} md={6} xl={4} key={index}>
-                                <BlogCard blog={blog} title={blog.blogName} description={blog.ShortDescription} writer={blog.writer} />
+                                <BlogCard blog={blog} title={blog.blogName} description={blog.ShortDescription} writer={blog.writer} useAnotherImage={blog.photoUrl} role={blog.role} />
                             </Grid2>
-
                         ))}
-
-
 
                     </Grid2>
                     <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
