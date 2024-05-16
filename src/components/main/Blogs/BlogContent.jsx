@@ -69,83 +69,14 @@ const BlogContent = () => {
                     <Divider sx={{ backgroundColor: "#344038", width: "100%", height: 3, borderRadius: "50%", display: { md: "none" }, mt: 2 }} />
                 </Grid2>
                 <Grid2 container>
-                    <Typography variant="h5">Introduction</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliq ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-
-
-                    <Grid2 container spacing={2}>
-                        <Grid2 md={8}>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-
-                        </Grid2>
-
-                        <Grid2 md={4}>
-                            <CardMedia
-                                component="img"
-                                src={blogImages1}
-                                alt="The Consumer Magazine"
-                                sx={{ borderRadius: "10px", float: "right", mb: 1 }}
-                            />
-                        </Grid2>
-                    </Grid2>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliq ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-
-                    <Grid2 container spacing={2} alignItems={"center"}>
-                        <Grid2 md={4}>
-                            <CardMedia
-                                component="img"
-                                src={blogImages2}
-                                alt="The Consumer Magazine"
-                                sx={{ borderRadius: "10px", mb: 1 }}
-                            />
-                        </Grid2>
-                        <Grid2 md={8}>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-                            <Typography marginBottom={1} sx={{ paddingRight: 2 }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                                Aliquam ex nibh,</Typography>
-
-                        </Grid2>
-
-
-                    </Grid2>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
-                    <Typography marginBottom={1}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.Aliquam ex nibh, Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.
-                        Aliquam ex nibh,</Typography>
+                    {Object.entries(blog.fullText).map(([sectionTitle, paragraphs]) => (
+                        <Box key={sectionTitle}>
+                            <Typography variant="h5" fontWeight={600} sx={{ pb: 1 }}>{sectionTitle}</Typography>
+                            {paragraphs.map((paragraph, index) => (
+                                <Typography key={index} sx={{ pb: 2 }}>{paragraph}</Typography>
+                            ))}
+                        </Box>
+                    ))}
 
                     <BlogsSuggestion />
                 </Grid2>
