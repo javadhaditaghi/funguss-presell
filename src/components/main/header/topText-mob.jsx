@@ -16,11 +16,11 @@ const TopTextMob = () => {
                 <TopText />
             </Grid2>
             <Grid2 xs={6} md={3.5} lg={2.5} sx={{ paddingX: "10px", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
-                <QualityCard icon={<Quality />} bot={-107} title="Satisfaction Guarantee" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
+                <QualityCard icon={<Quality />} bot={-107} title="Accurate Analysis" subtitle="Our thorough evaluations ensure you get the best advice." />
 
             </Grid2>
             <Grid2 xs={6} md={3.5} lg={2.5} sx={{ paddingX: "10px", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
-                <QualityCard icon={<Doctor />} bot={-107} title="Professional Therapist" subtitle="Aenean euismod eros arcu, ut dapibus vestibulum." />
+                <QualityCard icon={<Doctor />} bot={-107} title="Professional Specialists" subtitle="Expert advice from certified professionals in toenail care." />
             </Grid2>
 
         </>

@@ -23,12 +23,12 @@ const BlogsHeaderText = () => {
                 <Grid2 xs={1} md={1} lg={.5} xl={0}></Grid2>
                 <Grid2 xs={10} md={10} lg={10} xl={12} sx={{ position: "relative" }}>
                     <Box sx={{ position: "relative", top: "70%" }}>
-                        <Typography fontFamily={"Poppins"} fontSize={"16px"} color={"#ffffff"} letterSpacing={2.4}>Featured</Typography>
+                        <Typography fontFamily={"Poppins"} fontSize={"16px"} color={"#ffffff"} letterSpacing={2.4}>Featured Articles</Typography>
                         <Box sx={{ display: "flex", justifyContent: "flex-start", gap: 1 }}>
-                            <Typography fontFamily={"Poppins"} color={"#ffffff"} fontSize={{ xs: "30px", md: "40px", lg: "49px", xl: "68px" }} fontWeight={600} >Breaking Into Potato Design</Typography>
+                            <Typography fontFamily={"Poppins"} color={"#ffffff"} fontSize={{ xs: "30px", md: "40px", lg: "49px", xl: "68px" }} fontWeight={600} >Our Top Picks</Typography>
                             <Link sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}><ToRight /></Link>
                         </Box>
-                        {matches && <Typography fontFamily={"Poppins"} color={"#ffffff"} fontSize={{ md: "16px", lg: "17px", xl: "18px" }}>Aliquam ex nibh, rhoncus quis mi nec, imperdiet mattis est. Suspendisse potenti. Duis vestibulum magna quis suscipit tempus.</Typography>}
+                        {matches && <Typography fontFamily={"Poppins"} color={"#ffffff"} fontSize={{ md: "16px", lg: "17px", xl: "18px" }}>Discover the best solutions for toenail fungus with our expertly curated blog posts. Stay informed and find the perfect treatment for your needs.</Typography>}
                     </Box>
                 </Grid2>
 

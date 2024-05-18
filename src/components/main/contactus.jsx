@@ -52,11 +52,12 @@ const Contactus = () => {
                             <Typography fontFamily={"Poppins"} color={"#2D3928"} fontSize={{ xs: 28, md: 34, lg: 42, xl: 45 }} fontWeight={800}>
                                 Get In Touch
                             </Typography>
+                            <Typography mb={1}>
+                                We value your feedback and inquiries. Whether you have questions about our reviews, need assistance with a consumer issue,
+                                or want to learn more about our work, we’re here to help.
+                            </Typography>
                             <Typography>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries.
+                                Our team is committed to providing you with prompt and helpful support. Thank you for choosing The Consumer Magazine!
                             </Typography>
                         </Grid2>
 

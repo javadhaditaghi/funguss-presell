@@ -45,19 +45,24 @@ const About = () => {
                     </Grid2>
                     <Grid2 md={9} paddingBottom={5}>
                         <Typography variant="h2" fontWeight={600}>
-                            About us
+                            Who We Are
                         </Typography>
                         <Typography mb={1}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Established in 2016, The Consumer Magazine is an independent, non-profit organization committed to ensuring consumers get a fair deal.
+                            Navigating the myriad of products available in the market can be daunting. With countless options, finding the one that best suits your needs can be challenging.
+                            That’s where we come in!
+                            We collaborate with non-profit organizations to leverage our expertise for the benefit of consumers like you. Our team of dedicated product researchers and
+                            specialists conducts thorough evaluations of various products, assessing their quality, safety, and affordability
+                        </Typography>
+                        <Typography mb={1}>
+
+                            We collaborate with non-profit organizations to leverage our expertise for the benefit of consumers like you. Our team of dedicated product researchers and
+                            specialists conducts thorough evaluations of various products, assessing their quality, safety, and affordability
                         </Typography>
                         <Typography>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Our mission is to help you achieve the best possible results quickly. Choosing poor-quality products can lead to frustration and financial loss. To prevent this,
+                            we meticulously research and review a wide range of products, providing you with comprehensive insights. Our reviews are designed to save you time and money by
+                            recommending the best products for your needs.
                         </Typography>
                     </Grid2>
                 </Grid2>
@@ -86,9 +91,12 @@ const About = () => {
                     <Grid2 md={7.5}>
                         <Qoute />
                         <Typography mb={1} sx={{ paddingX: { xs: "25px", md: "50px" } }}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            The Consumer Magazine is an independent, non-profit organization dedicated to ensuring consumers get a fair deal. Our work is primarily funded by consumers who subscribe to our member-only information and advice, supporting our research, investigations, and campaigns aimed at helping all consumers. Additional funding comes from business programs, contract work with government agencies, and donations.
+
+                        </Typography>
+                        <Typography mb={1} sx={{ paddingX: { xs: "25px", md: "50px" } }}>
+
+                            We rigorously test products and services to recommend the best options and investigate issues crucial for consumer awareness. By conducting mystery shopping and surveys, we hold businesses accountable. We advise thousands of consumers about their rights, campaign for beneficial laws and regulations, and recommend trustworthy businesses. Our team of product researchers and specialists removes the guesswork, filtering out scams to provide you with a curated list of the most effective products on the market, ensuring you save time and money.
                         </Typography>
                         <Box textAlign={"right"}>
                             <Qoutebuttom />

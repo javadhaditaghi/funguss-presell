@@ -36,7 +36,7 @@ export default function Specialist() {
                     />
                     <Box sx={{ paddingLeft: 2 }}>
                         <Typography sx={{ color: "#555" }}>
-                            Senior Editor: <Box component="span" >Amy Wright</Box>
+                            Senior Editor: <Box component="span" >Emily Carter</Box>
                         </Typography>
                         <CustomLink>Contact me</CustomLink>
                         <CustomLink>About me</CustomLink>
