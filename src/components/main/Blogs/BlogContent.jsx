@@ -7,8 +7,8 @@ import { CardMedia } from "@mui/material"
 import { Avatar } from "@mui/material"
 import BlogsSuggestion from "./BlogSuggestion"
 import { Divider } from "@mui/material"
-import noImge from '/reviews/src/assets/blogs/img_not_found.jpg'
-import noImge1 from '/reviews/src/assets/blogs/img_not_found_narrow.jpg'
+import noImge from '/src/assets/blogs/img_not_found.jpg'
+import noImge1 from '/src/assets/blogs/img_not_found_narrow.jpg'
 import Error404 from "../404"
 
 
@@ -25,7 +25,8 @@ const BlogContent = () => {
         return <div>Blog not found</div>;
     }
 
-    const blogImage = blog.photoUrl || noImge;
+    const blogImage = `../${blog.photoUrl}` || noImge;
+    console.log(blogImage);
 
     const blogImages1 = blog.photoUrl1 || noImge1;
     const blogImages2 = blog.photoUrl2 || noImge1;

@@ -20,7 +20,7 @@ import Blogs from '../main/blogs';
 import { Route, Link, Routes } from 'react-router-dom';
 import BlogContent from '../main/Blogs/BlogContent';
 import blogData from '../main/Blogs/blogsData.json';
-import logoPhoto from '/reviews/src/assets/logo.webp';
+import logoPhoto from '/src/assets/logo.webp';
 
 
 

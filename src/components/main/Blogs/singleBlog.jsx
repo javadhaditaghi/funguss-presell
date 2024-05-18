@@ -2,12 +2,12 @@ import * as React from 'react';
 import { CardActionArea, Avatar, Typography, CardMedia, CardContent, Card, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import blogPhoto from './blogSection.png'
-import noImge from '/reviews/src/assets/blogs/img_not_found.jpg'
+import noImge from '/src/assets/blogs/img_not_found.jpg'
 
 
 export default function BlogCard({ title, description, writer, useAnotherImage, role }) {
 
-    const blogimage = useAnotherImage || noImge;
+
 
     return (
         <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`/reviews/blogs/${encodeURIComponent(title.split(' ').join('_'))}`} >
@@ -15,7 +15,7 @@ export default function BlogCard({ title, description, writer, useAnotherImage, 
                 <CardMedia
                     component="img"
                     height="170"
-                    image={blogimage}
+                    image={useAnotherImage == null | useAnotherImage == '../undefined' ? noImge : useAnotherImage}
                     alt={title}
 
                 />

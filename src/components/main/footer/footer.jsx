@@ -1,5 +1,6 @@
 import { Box, Typography, CardMedia } from "@mui/material"
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
+import logo from '/src/assets/logo.webp'
 
 
 const Footer = () => {
@@ -16,7 +17,7 @@ const Footer = () => {
 
                             <CardMedia
                                 component="img"
-                                src="logo.webp"
+                                src={logo}
                                 alt="The Consumer Magazine"
 
                                 sx={{ width: { xs: "50px", sm: "70px", md: "90px" } }}
