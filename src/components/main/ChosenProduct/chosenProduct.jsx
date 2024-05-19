@@ -74,7 +74,6 @@ const ChosenProduct = () => {
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia
                                     component="img"
-
                                     image='funguss.png'
                                     alt='Golden Nutrition Funguss'
                                     sx={{
@@ -87,12 +86,12 @@ const ChosenProduct = () => {
 
                                 />
                                 <Box>
-                                    <Typography variant='body1' fontFamily={"Poppins"} fontSize={"15px"} color={"#ffffff"} letterSpacing={2} sx={{ position: "relative", left: "9%" }}>Top Rated Product <ArrowForwardIcon sx={{
+                                    <Typography variant='body1' fontFamily={"Poppins"} fontSize={"15px"} color={"#ffffff"} letterSpacing={2} sx={{ position: "relative", left: "11%" }}>Top Rated Product <ArrowForwardIcon sx={{
                                         position: "relative",
                                         top: 7,
                                         animation: `${bounce} 1s infinite`
                                     }} /> </Typography>
-                                    <Typography fontSize={"25px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "13%" }}>Golden Nutrition Funguss</Typography>
+                                    <Typography fontSize={"25px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "15%" }}>Golden Nutrition Funguss</Typography>
                                 </Box>
                             </Box>
                         </CardActionArea>
