@@ -25,7 +25,7 @@ export default function QualityCard({ icon, title, subtitle, bot, topic, subTopi
                     {topic}
 
                 </Typography>
-                <Typography fontFamily={"Oswald"} color={"#ffffff"} fontSize={40}>
+                <Typography fontFamily={"Oswald"} color={"#ffffff"} fontSize={43}>
                     {subTopic}
 
                 </Typography>

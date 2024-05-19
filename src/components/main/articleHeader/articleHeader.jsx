@@ -17,26 +17,25 @@ const ArticleHeader = () => {
     return (
         <Box>
             <Grid2 container marginTop={5}>
-                <Grid2 xs={0} md={.5} lg={1.8}>
+                <Grid2 xs={0} md={.5} lg={1.7}>
 
                 </Grid2>
-                <Grid2 xs={12} md={6} lg={5.2} sx={{ textAlign: { xs: "center", md: "left" }, paddingX: { xs: 3, md: 0 } }} >
+                <Grid2 xs={12} md={6} lg={5.3} sx={{ textAlign: { xs: "center", md: "left" }, paddingX: { xs: 3, md: 0 }, display: 'flex', alignItems: "center" }} >
                     <Box>
                         <Typography fontFamily={"Oswald"} fontSize={32} fontWeight={700}>Top 5 Most Effective and Strongest Nail Fungus
                             Solutions Of {myYear}</Typography>
                         <Typography fontSize={14} fontFamily={"Open Sans"} color={"#007BFF"}>Last updated on {myMonth} {myYear}</Typography>
                     </Box>
                 </Grid2>
-                <Grid2 xs={12} md={5} lg={3.2} sx={{ paddingX: "10px", display: { xs: "none", md: "block" } }}>
+                <Grid2 xs={12} md={5} lg={3.3} sx={{ paddingX: "10px", display: { xs: "none", md: "block" } }}>
                     <Box>
-                        <QualityCard topic={` ${myYear}'s Top Rated Nail Fungus Solution`} subTopic='Golden Nutrition Funguss'>
-                        </QualityCard>
+                        <QualityCard topic={` ${myYear}'s Top Rated Nail Fungus Solution`} subTopic='Golden Nutrition Funguss' />
                         <ProgressBar />
                     </Box>
 
                 </Grid2>
 
-                <Grid2 xs={0} md={.5} lg={1.8}>
+                <Grid2 xs={0} md={.5} lg={1.7}>
 
 
                 </Grid2>
