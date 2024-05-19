@@ -31,7 +31,7 @@ export default function ProgressBar() {
             setProgress((prevProgress) => {
                 if (prevProgress >= 90) {
                     clearInterval(timer); // Stop the interval when progress reaches 90
-                    return 90;
+                    return 98;
                 } else {
                     return prevProgress + 10;
                 }
