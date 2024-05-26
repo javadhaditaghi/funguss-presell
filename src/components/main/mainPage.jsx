@@ -8,6 +8,7 @@ import HeaderText from "./header/main-header-text";
 import Specialist from "./header/specialist";
 import TopTextMob from "./header/topText-mob";
 import ChosenProduct from "./ChosenProduct/chosenProduct";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -16,6 +17,13 @@ const MainPage = () => {
 
     // Desktop version
     <>
+      <Helmet>
+        <meta name='description'
+          content='Discover the top-rated fungal nail solutions of 2024, including Funguss™, Yanail, EmoniNail, Spirularin, and YogaMedic. Each product is evaluated based on formula, user experience, certifications, and price, offering insights into effectiveness, natural ingredients, and customer satisfaction. Find the best option for healthier nails today.'
+        />
+      </Helmet>
+
+
 
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
       <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} />
