@@ -68,8 +68,8 @@ const Contactus = () => {
                                 <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                                     {contact.icon}
                                     <Box>
-                                        <Typography fontSize={{ xs: 20, md: 24 }} fontWeight={600} color={"#5C645E"}>{contact.title}</Typography>
-                                        <Typography fontSize={17.6} fontWeight={500} color={"#5C645E"}> {contact.value}</Typography>
+                                        <Typography fontSize={{ xs: 20, md: 20, xl: 24 }} fontWeight={600} color={"#5C645E"}>{contact.title}</Typography>
+                                        <Typography fontSize={{ xs: 17.6, md: 16, xl: 17.6 }} fontWeight={500} color={"#5C645E"}> {contact.value}</Typography>
                                     </Box>
                                 </Box>
                             </Grid2>
