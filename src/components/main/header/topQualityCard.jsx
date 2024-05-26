@@ -13,11 +13,11 @@ export default function QualityCard({ icon, title, subtitle, bot, topic, subTopi
 
             <CardContent sx={{ textAlign: "center" }}>
                 {icon}
-                <Typography sx={{ fontSize: 24 }} fontFamily={"DM Sans"} color="#ffffff" gutterBottom>
+                <Typography sx={{ fontSize: { xs: 24, md: 18, lg: 19, xl: 24 } }} fontFamily={"DM Sans"} color="#ffffff" gutterBottom>
                     {title}
                 </Typography>
 
-                <Typography sx={{ fontSize: 17.6, display: { xs: "none", md: "block" } }} component="div" fontFamily={"DM Sans"} color="#ffffff" col>
+                <Typography sx={{ fontSize: { md: 14, xl: 17.5 }, display: { xs: "none", md: "block" } }} component="div" fontFamily={"DM Sans"} color="#ffffff" col>
                     {subtitle}
                 </Typography>
 

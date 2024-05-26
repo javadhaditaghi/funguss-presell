@@ -28,7 +28,7 @@ const DesktopHeader = ({ imgURL, text, specialist }) => {
                 </Grid2>
             </Grid2>
             {specialist}
-        </Box >
+        </Box>
 
 
     )
