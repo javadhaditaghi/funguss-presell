@@ -38,7 +38,6 @@ const About = () => {
                 <title>About us</title>
                 <meta name="description" content="Learn about The Consumer Magazine, an independent non-profit organization established in 2016. We are dedicated to ensuring consumers get a fair deal through thorough product evaluations, expert reviews, and valuable insights. Discover our mission, team, and commitment to consumer advocacy." />
                 <meta name="keywords" content="The Consumer Magazine, about us, consumer advocacy, product reviews, non-profit organization, consumer rights, product evaluations, quality and safety, affordability, expert insights" />
-
             </Helmet>
 
             <Box width={"100vw"} sx={{ marginTop: "200px" }}>
@@ -49,8 +48,6 @@ const About = () => {
                         <Grid2 md={3} sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <Typography fontFamily={"Poppins"} fontWeight={600} letterSpacing={"2.4px"} width={130} sx={{ width: { xs: "auto", md: "120px" } }}>
                                 About us
-                                Our team
-                                Press
                             </Typography>
                         </Grid2>
                         <Grid2 md={9} paddingBottom={5}>
