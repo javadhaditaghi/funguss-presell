@@ -23,7 +23,7 @@
         "customerRating": 8.8,
         "imgURL": "yanail.png",
         "price": 43.99,
-        "officialWebsite": "official_website_url_here",
+      
         "overallRating": 4.2,
         "reviewerCount": 576,
         "formulaRate": 85,
@@ -40,7 +40,7 @@
         "customerRating": 6.2,
         "imgURL": "emoniNail.png",
         "price": 59.95,
-        "officialWebsite": "official_website_url_here",
+        
         "overallRating": 3.9,
         "reviewerCount": 433,
         "formulaRate": 75,
@@ -57,7 +57,7 @@
         "customerRating": 6.8,
         "imgURL": "spirularin.png",
         "price": 34.99,
-        "officialWebsite": "official_website_url_here",
+       
         "overallRating": 3.5,
         "reviewerCount": 472,
         "formulaRate": 63,
@@ -74,7 +74,7 @@
         "customerRating": 5.6,
         "imgURL": "yogamedic.png",
         "price": 37.95,
-        "officialWebsite": "official_website_url_here",
+        
         "overallRating": 3,
         "reviewerCount": 358,
         "formulaRate": 42,
