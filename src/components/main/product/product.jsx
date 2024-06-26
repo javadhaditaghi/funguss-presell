@@ -19,7 +19,7 @@ const Product = () => {
             <ProductText product={jsonData.funguss} />
             <ProsandCons product="funguss" />
             <Box sx={{ display: "flex", justifyContent: "center", mt: "40px" }}>
-                <Link href={"https://nailfunguss.com/"}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d", fontSize: "1.2rem" }} >Checkout the Official Website »</Button></Link>
+                <Link href={"https://nailfunguss.com/"}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d", fontSize: "1.1rem" }} >Checkout the Official Website »</Button></Link>
             </Box>
 
 

@@ -77,7 +77,7 @@ const Contactus = () => {
                                         {contact.icon}
                                         <Box>
                                             <Typography fontSize={{ xs: 20, md: 20, xl: 24 }} fontWeight={600} color={"#5C645E"}>{contact.title}</Typography>
-                                            <Typography fontSize={{ xs: 17.6, md: 16, xl: 17.6 }} fontWeight={500} color={"#5C645E"}> {contact.value}</Typography>
+                                            <Typography fontSize={{ xs: 17.6, md: 16, xl: 15.6 }} fontWeight={500} color={"#5C645E"}> {contact.value}</Typography>
                                         </Box>
                                     </Box>
                                 </Grid2>
