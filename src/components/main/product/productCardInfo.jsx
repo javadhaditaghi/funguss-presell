@@ -49,7 +49,7 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #28A745" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
                     </Box>
                 </Box>
 
@@ -71,7 +71,7 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #28A745" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), ##00811d" }} >Checkout the Official Website »</Button></Link>}
                     </Box>
                 </Box>
 
