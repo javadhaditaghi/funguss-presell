@@ -43,7 +43,7 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> / 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.price}</Box> </Typography>
+                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box></Typography>
                         <Typography>Official Website: <CustomLink href={product.officialWebsite}>Visit Now</CustomLink></Typography>
                         <Typography>Guarantee: <Box fontWeight={600} display={"inline"}>100% Money Back</Box></Typography>
 
@@ -65,7 +65,7 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box sx={{ my: 2 }}>
-                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price} </Box> / 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.price}</Box> </Typography>
+                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price} </Box></Typography>
                         <Typography>Official Website: <CustomLink href={product.officialWebsite}>Visit Now</CustomLink></Typography>
                         <Typography>Guarantee: <Box fontWeight={600} display={"inline"}>100% Money Back</Box></Typography>
 
