@@ -6,6 +6,7 @@ import ProsandCons from "./productsProsandCons"
 import jsonData from "./productText.json"
 import cardData from "./productCard.json"
 import Disclaimer from "./disclaimer"
+import { Box, Link, Button } from "@mui/material"
 
 
 const Product = () => {
@@ -17,6 +18,10 @@ const Product = () => {
             </ProductCard>
             <ProductText product={jsonData.funguss} />
             <ProsandCons product="funguss" />
+            <Box sx={{ display: "flex", justifyContent: "center", mt: "40px" }}>
+                <Link href={"https://nailfunguss.com/"}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #28A745" }} >Checkout the Official Website »</Button></Link>
+            </Box>
+
 
             <ProductCard product={cardData.yanail}>
                 <ProductCardHeader product={cardData.yanail} />
