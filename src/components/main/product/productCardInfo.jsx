@@ -28,7 +28,7 @@ const ProductCardInfo = ({ product }) => {
                     <CardMedia
                         component="img"
                         image={product.imgURL}
-                        alt="Golden Nutrition Funguss"
+                        alt={product.productAlt}
                         sx={{ maxHeight: 315, maxWidth: 275, margin: "auto", marginTop: { xs: "15px", md: "auto" } }}
 
                     />
@@ -43,13 +43,13 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice} each</Box></Box>} </Typography>
+                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice}<Box display={"inline"} fontWeight={400}> each</Box></Box></Box>} </Typography>
                         {product.officialWebsite && <Typography>Official Website: <CustomLink href={product.officialWebsite}>Visit Now</CustomLink></Typography>}
                         <Typography>Guarantee: <Box fontWeight={600} display={"inline"}>100% Money Back</Box></Typography>
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
                     </Box>
                 </Box>
 
@@ -65,14 +65,14 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box sx={{ my: 2 }}>
-                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> / 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.price}</Box> </Typography>
+                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice}<Box display={"inline"} fontWeight={400}> each</Box></Box></Box>} </Typography>
                         {product.officialWebsite && <Typography>Official Website: <CustomLink href={product.officialWebsite}>Visit Now</CustomLink></Typography>}
 
                         <Typography>Guarantee: <Box fontWeight={600} display={"inline"}>100% Money Back</Box></Typography>
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite}> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
                     </Box>
                 </Box>
 

@@ -5,7 +5,7 @@ import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
 import { styled } from '@mui/material/styles';
 
 
-const CustomLink = styled('Link')({
+const CustomLink = styled(Link)({
     display: 'block',
     textDecoration: 'none',
     cursor: 'pointer',
@@ -38,8 +38,8 @@ export default function Specialist() {
                         <Typography sx={{ color: "#555" }}>
                             Senior Editor: <Box component="span" >Emily Carter</Box>
                         </Typography>
-                        <CustomLink>Contact me</CustomLink>
-                        <CustomLink>About me</CustomLink>
+                        <CustomLink href="/antifungalsolutions/contactus">Contact me</CustomLink>
+                        <CustomLink href="/antifungalsolutions/about">About me</CustomLink>
                     </Box>
 
                 </Box>

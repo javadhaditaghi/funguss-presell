@@ -3,6 +3,7 @@ import ProsandConsCard from "./prosandConsCard"
 import { Pros } from "../../icons/pros"
 import { Cons } from "../../icons/cons"
 import jsonData from "./prosandcons.json"
+import perser from 'html-react-parser';
 
 
 
@@ -19,7 +20,7 @@ const ProsandCons = ({ product }) => {
                 jsonData[product].pros.map((pro, index) => (
                     <Box key={index} sx={{ display: "flex", alignItems: { md: "center" }, py: "2px" }}>
                         <Pros />
-                        <Typography>{pro}</Typography>
+                        <Typography>{perser(pro)}</Typography>
                     </Box>
                 ))
             }
@@ -29,7 +30,7 @@ const ProsandCons = ({ product }) => {
                 jsonData[product].cons.map((cons, index) => (
                     <Box key={index} sx={{ display: "flex", alignItems: { md: "center" }, py: "2px" }}>
                         <Cons />
-                        <Typography>{cons}</Typography>
+                        <Typography>{perser(cons)}</Typography>
                     </Box>
                 ))
             }
