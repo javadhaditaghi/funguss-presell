@@ -54,7 +54,7 @@ const ChosenProduct = () => {
 
                             }}
                         />
-                        <Link href={"https://goldennutrition.com/collections/funguss/products/funguss-toenail-fungus-treatment-nail-repair-solution-with-undecylenic-acid?variant=49809190682940"} target="__blank">
+                        <Link href={"https://goldennutrition.com"} target="__blank">
                             <Button
                                 sx={{
                                     backgroundColor: "#ffffff",
@@ -69,7 +69,7 @@ const ChosenProduct = () => {
                         </Link>
                     </Box>
 
-                    <Link href={"https://goldennutrition.com/collections/funguss/products/funguss-toenail-fungus-treatment-nail-repair-solution-with-undecylenic-acid?variant=49809190682940"} target="__blank">
+                    <Link href={"https://goldennutrition.com"} target="__blank">
                         <CardActionArea>
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia

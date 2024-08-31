@@ -6,3 +6,5 @@ export default defineConfig({
   base: "https://theconsumermagazine.com/antifungalsolutions/",
   plugins: [react()],
 })
+
+
