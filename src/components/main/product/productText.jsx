@@ -17,13 +17,13 @@ const ProductText = ({ product }) => {
         <Box paddingTop={3}>
             <CustomBox>
                 {product.introduction.content.map((paragraph, index) => (
-                    <Typography key={index}>{perser(paragraph)}</Typography>
+                    <Typography key={index} >{perser(paragraph)}</Typography>
                 ))}
             </CustomBox>
             <CustomBox>
                 <Typography variant="h5">{product.formula.title}</Typography>
                 {product.formula.content.map((paragraph, index) => (
-                    <Typography key={index}>{perser(paragraph)}</Typography>
+                    <Typography key={index} sx={{pb: 1}}>{perser(paragraph)}</Typography>
                 ))}
             </CustomBox>
 

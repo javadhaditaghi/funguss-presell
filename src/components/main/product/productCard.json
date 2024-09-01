@@ -1,13 +1,13 @@
 {
     "funguss": {
       "id": 1,
-      "title": "Golden Nutrition Funguss",
+      "title": "Golden Nutrition Funguss™",
       "rating": 9.5,
       "customerRating": 9.5,
-      "imgURL": "funguss.png",
-      "price": 39.95,
-      "fivePrice": 19.99,
-      "productAlt": "Golden Nutrition Toenail Funguss Treatment",
+      "imgURL": "funguss.webp",
+      "price": 149.95,
+      "fivePrice": null,
+      "productAlt": "Golden Nutrition Funguss™ All-in-One Pack",
       
 
       "officialWebsite": "https://goldennutrition.com",

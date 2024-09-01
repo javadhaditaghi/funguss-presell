@@ -45,7 +45,7 @@ const ChosenProduct = () => {
                         <CardMedia
                             component="img"
                             height="170"
-                            image='funguss.png'
+                            image='funguss.webp'
                             alt='Golden Nutrition Funguss'
                             sx={{
                                 width: "90%",
@@ -74,7 +74,7 @@ const ChosenProduct = () => {
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia
                                     component="img"
-                                    image='funguss.png'
+                                    image='funguss.webp'
                                     alt='Golden Nutrition Funguss'
                                     sx={{
                                         width: "100px",
