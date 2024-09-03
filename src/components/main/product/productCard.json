@@ -6,10 +6,9 @@
       "customerRating": 9.5,
       "imgURL": "funguss.webp",
       "price": 149.95,
+      "effectivenessGrade": "9.4/ 10",
       "fivePrice": null,
       "productAlt": "Golden Nutrition Funguss™ All-in-One Pack",
-      
-
       "officialWebsite": "https://goldennutrition.com",
       "overallRating": 4.8,
       "reviewerCount": 55576,
@@ -26,6 +25,7 @@
         "rating": 8.6,
         "customerRating": 8.8,
         "imgURL": "yanail.png",
+        "effectivenessGrade": "8.9/ 10",
         "price": 43.99,
         "productAlt": "Yanail Toenail Funguss Treatment",
       
@@ -44,6 +44,7 @@
         "rating": 7.2,
         "customerRating": 6.2,
         "imgURL": "emoniNail.png",
+        "effectivenessGrade": "8/ 10",
         "price": 59.95,
         "productAlt": "EmoniNail Toenail Funguss Treatment",
         
@@ -63,8 +64,8 @@
         "customerRating": 6.8,
         "imgURL": "spirularin.png",
         "price": 34.99,
-        "productAlt": "Spirularin Toenail Funguss Treatment",
-       
+        "effectivenessGrade": "7.3/ 10",
+        "productAlt": "Spirularin Toenail Funguss Treatment",       
         "overallRating": 3.5,
         "reviewerCount": 472,
         "formulaRate": 63,
@@ -81,6 +82,7 @@
         "customerRating": 5.6,
         "imgURL": "yogamedic.png",
         "price": 37.95,
+        "effectivenessGrade": "6.9/ 10",
         "productAlt": "YogaMedic Toenail Funguss Treatment",
         
         "overallRating": 3,
