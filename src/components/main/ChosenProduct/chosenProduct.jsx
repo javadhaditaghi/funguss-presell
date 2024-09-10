@@ -48,9 +48,10 @@ const ChosenProduct = () => {
                             image='funguss.png'
                             alt='Golden Nutrition Funguss'
                             sx={{
-                                width: "90%",
+                                
                                 margin: 'auto',
-                                animation: `${bounce} 2s infinite`
+                                animation: `${bounce} 2s infinite`,
+                                  width: '150px !important'
 
                             }}
                         />
