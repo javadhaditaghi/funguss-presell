@@ -39,19 +39,20 @@ const ChosenProduct = () => {
         <Box sx={{}}>
             {show && (
                 <>
+                    {/* Desktop Screen */}
                     <Box sx={{ display: { xs: 'none', md: 'block' }, position: "fixed", right: "15px", bottom: "10px", backgroundColor: "rgba(45, 57, 40, .5)", padding: 3, borderRadius: "15px", textAlign: 'center', zIndex: 3 }}>
                         <Typography variant='body1' fontFamily={"Poppins"} fontSize={"10px"} color={"#ffffff"} letterSpacing={2} textAlign={"left"}>Top Rated Product</Typography>
                         <Typography variant='h2' fontSize={"17px"} fontFamily={"Oswald"} fontWeight={600} pb={2} color={'#ffffff'}>Golden Nutrition Funguss</Typography>
                         <CardMedia
                             component="img"
                             height="170"
+                            width="187"
                             image='funguss.webp'
                             alt='Golden Nutrition Funguss'
-                            sx={{
-                                width: "90%",
+                            sx={{     
                                 margin: 'auto',
-                                animation: `${bounce} 2s infinite`
-
+                                animation: `${bounce} 2s infinite`,
+                                width: '187px !important'
                             }}
                         />
                         <Link href={"https://goldennutrition.com"} target="__blank">
@@ -68,7 +69,7 @@ const ChosenProduct = () => {
                             </Button>
                         </Link>
                     </Box>
-
+                    {/* Mobile Screen */}
                     <Link href={"https://goldennutrition.com"} target="__blank">
                         <CardActionArea>
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
