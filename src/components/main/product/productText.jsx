@@ -42,6 +42,13 @@ const ProductText = ({ product }) => {
             </CustomBox>
 
             <CustomBox>
+                <Typography variant="h5">{product['feedback'].title}</Typography>
+                {product['feedback'].content.map((paragraph, index) => (
+                    <Typography key={index}>{perser(paragraph)}</Typography>
+                ))}
+            </CustomBox>
+
+            <CustomBox>
                 <Typography variant="h5">{product['bottom-line'].title}</Typography>
                 {product['bottom-line'].content.map((paragraph, index) => (
                     <Typography key={index}>{perser(paragraph)}</Typography>
