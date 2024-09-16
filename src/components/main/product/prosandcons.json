@@ -1,6 +1,6 @@
 
 {
-    "funguss": {
+    "product_one": {
     "pros": [
     "<strong>Contains 25% Undecylenic Acid</strong> which is approved by the FDA.",
     "<strong>Fast-Acting formulation</strong> with excellent <strong>short-term results</strong>.",
@@ -18,7 +18,7 @@
     "Only available online for sale."
     ]
     },
-    "yanail": {
+    "product_two": {
     "pros": [
     "Fast absorption and natural ingredients",
     "Acceptable range of ingredients and affordable pricing",
@@ -30,7 +30,7 @@
     "Lacks included applicator brush for easier application"
     ]
     },
-    "emoniNail": {
+    "product_three": {
     "pros": [
     "Designed to penetrate and destroy nail bed fungus effectively.",
     "Contains undecylenic acid, tea tree oil, and sunflower seed oil.",
@@ -41,7 +41,7 @@
     "Lacks a wide variety of ingredients compared to top competitors."
     ]
     },
-    "spirularin": {
+    "product_four": {
     "pros": [
     "Contains beneficial ingredients like spirulina, jojoba oil, and licorice root.",
     "Rich in nutrients and antioxidants for overall nail health.",
@@ -55,7 +55,7 @@
     ]
     }
     ,
-    "yogaMedic": {
+    "product_five": {
     "pros": [
     "Contains active ingredients like lavender, eucalyptus, citrus, and biotin.",
     "Lavender and eucalyptus have known antimicrobial properties.",

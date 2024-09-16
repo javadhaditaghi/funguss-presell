@@ -51,7 +51,7 @@ export default function Specialist() {
             </Grid2>
 
 
-        </Grid2 >
+        </Grid2>
 
     );
 }

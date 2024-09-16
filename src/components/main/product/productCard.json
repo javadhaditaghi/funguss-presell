@@ -1,14 +1,13 @@
 {
-    "funguss": {
+    "product_one": {
       "id": 1,
-      "title": "Golden Nutrition Funguss",
+      "title": "Golden Nutrition Wart Remover",
       "rating": 9.5,
       "customerRating": 9.5,
-      "imgURL": "funguss.png",
-      "price": 39.95,
-      "fivePrice": 19.99,
-      "productAlt": "Golden Nutrition Toenail Funguss Treatment",
-      
+      "imgURL": "goldennutrition.png",
+      "price": "",
+      "fivePrice": "",
+      "productAlt": "Golden Nutrition Wart Remover",
 
       "officialWebsite": "https://goldennutrition.com",
       "overallRating": 4.8,
@@ -20,15 +19,15 @@
       "backgroundColor": "#E8FFDE",
       "ribonBackgroundColor": "#8FFF00"
     },
-    "yanail": {
+    "product_two": {
         "id": 2,
-        "title": "Yanail",
+        "title": "Compound W Wart Remover",
         "rating": 8.6,
         "customerRating": 8.8,
-        "imgURL": "yanail.png",
-        "price": 43.99,
-        "productAlt": "Yanail Toenail Funguss Treatment",
-      
+        "imgURL": "compoundW.png",
+        "price": "",
+        "productAlt": "Compound W Wart Remover",
+
         "overallRating": 4.2,
         "reviewerCount": 612,
         "formulaRate": 85,
@@ -38,14 +37,14 @@
         "backgroundColor": "#ffff",
         "ribonBackgroundColor": "#C1E297"
       },
-      "emoniNail": {
+      "product_three": {
         "id": 3,
-        "title": "EmoniNail™",
+        "title": "Dr. Scholl's Clear Away Wart Remover",
         "rating": 7.2,
         "customerRating": 6.2,
-        "imgURL": "emoniNail.png",
-        "price": 59.95,
-        "productAlt": "EmoniNail Toenail Funguss Treatment",
+        "imgURL": "drScholl.png",
+        "price": "",
+        "productAlt": "Dr. Scholl's Clear Away Wart Remover",
         
         "overallRating": 3.9,
         "reviewerCount": 433,
@@ -56,14 +55,14 @@
         "backgroundColor": "#ffff",
         "ribonBackgroundColor": "#C1E297"
       },
-      "spirularin": {
+      "product_four": {
         "id": 4,
-        "title": "Spirularin",
+        "title": "WartStick Wart Remover",
         "rating": 6.5,
         "customerRating": 6.8,
-        "imgURL": "spirularin.png",
-        "price": 34.99,
-        "productAlt": "Spirularin Toenail Funguss Treatment",
+        "imgURL": "wartStick.png",
+        "price": "",
+        "productAlt": "WartStick Wart Remover",
        
         "overallRating": 3.5,
         "reviewerCount": 472,
@@ -74,14 +73,14 @@
         "backgroundColor": "#ffff",
         "ribonBackgroundColor": "#C1E297"
       },
-      "yogaMedic": {
+      "product_five": {
         "id": 5,
-        "title": "YogaMedic",
+        "title": "Wartcide Wart Remover",
         "rating": 5.9,
         "customerRating": 5.6,
-        "imgURL": "yogamedic.png",
-        "price": 37.95,
-        "productAlt": "YogaMedic Toenail Funguss Treatment",
+        "imgURL": "wartCide.png",
+        "price": "",
+        "productAlt": "Wartcide Wart Remover",
         
         "overallRating": 3,
         "reviewerCount": 358,

@@ -1,5 +1,5 @@
 {
-    "funguss": {
+    "product_one": {
         "introduction": {
             "title": "",
             "content": [
@@ -48,7 +48,7 @@
       }
     },
   
-    "yanail": {
+    "product_two": {
        "introduction": {
         "title": "",
         "content": [
@@ -91,7 +91,7 @@
         ]
       }
     },
-    "emoniNail": {
+    "product_three": {
       "introduction": {
        "title": "",
        "content": [
@@ -133,7 +133,7 @@
        ]
      }
    },
-   "spirularin": {
+   "product_four": {
      "introduction": {
       "title": "",
       "content": [
@@ -180,7 +180,7 @@
       ]
     }
    },
-   "yogaMedic": {
+   "product_five": {
      "introduction": {
       "title": "",
       "content": [
