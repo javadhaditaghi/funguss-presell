@@ -30,10 +30,10 @@ import logoPhoto from '/src/assets/logo.webp';
 
 const drawerWidth = 240;
 const navItems = [
-  ["1", 'Home', "/antifungalsolutions/"],
-  ["2", 'About', "/antifungalsolutions/about"],
-  ["3", 'Blogs', "/antifungalsolutions/blogs"],
-  ["4", 'Contact us', "/antifungalsolutions/contactus"],
+  ["1", 'Home', "/wartremovalsolutions/"],
+  ["2", 'About', "/wartremovalsolutions/about"],
+  ["3", 'Blogs', "/wartremovalsolutions/blogs"],
+  ["4", 'Contact us', "/wartremovalsolutions/contactus"],
 ];
 
 function DrawerAppBar(props) {
@@ -154,11 +154,11 @@ function DrawerAppBar(props) {
       </nav>
       <Box component="main">
         <Routes>
-          <Route path='antifungalsolutions/' element={<MainPage />} />
-          <Route path='antifungalsolutions/about' element={<About />} />
-          <Route path='antifungalsolutions/blogs' element={<Blogs />} />
-          <Route path='antifungalsolutions/blogs/:title' element={<BlogContent />} />
-          <Route path='antifungalsolutions/contactus' element={<Contactus />} />
+          <Route path='wartremovalsolutions/' element={<MainPage />} />
+          <Route path='wartremovalsolutions/about' element={<About />} />
+          <Route path='wartremovalsolutions/blogs' element={<Blogs />} />
+          <Route path='wartremovalsolutions/blogs/:title' element={<BlogContent />} />
+          <Route path='wartremovalsolutions/contactus' element={<Contactus />} />
         </Routes>
 
         <Footer />

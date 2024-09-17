@@ -10,7 +10,7 @@ export default function BlogCard({ title, description, writer, useAnotherImage, 
 
 
     return (
-        <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`/antifungalsolutions/blogs/${encodeURIComponent(title.split(' ').join('_'))}`} >
+        <Card sx={{ margin: "20px", display: "block", textDecoration: "none" }} component={Link} to={`/wartremovalsolutions/blogs/${encodeURIComponent(title.split(' ').join('_'))}`} >
             <CardActionArea>
                 <CardMedia
                     component="img"

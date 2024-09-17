@@ -38,8 +38,8 @@ export default function Specialist() {
                         <Typography sx={{ color: "#555" }}>
                             Senior Editor: <Box component="span" >Emily Carter</Box>
                         </Typography>
-                        <CustomLink href="/antifungalsolutions/contactus">Contact me</CustomLink>
-                        <CustomLink href="/antifungalsolutions/about">About me</CustomLink>
+                        <CustomLink href="/wartremovalsolutions/contactus">Contact me</CustomLink>
+                        <CustomLink href="/wartremovalsolutions/about">About me</CustomLink>
                     </Box>
 
                 </Box>
