@@ -75,12 +75,12 @@
       },
       "product_five": {
         "id": 5,
-        "title": "Wartcide Wart Remover",
+        "title": "Warticide Wart Remover",
         "rating": 5.9,
         "customerRating": 5.6,
         "imgURL": "wartCide.png",
         "price": "",
-        "productAlt": "Wartcide Wart Remover",
+        "productAlt": "Warticide Wart Remover",
         
         "overallRating": 3,
         "reviewerCount": 358,

@@ -26,7 +26,7 @@ const MainPage = () => {
 
 
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
-      <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} />
+      <MobileHeader imgURL='header-mobile.jpg' text={<TopTextMob />} specialist={<Specialist />} />
       <ArticleHeader />
       <Grid2 container>
         <Grid2 xs={0} md={.5} lg={1.8}>
