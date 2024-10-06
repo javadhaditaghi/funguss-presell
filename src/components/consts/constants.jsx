@@ -14,7 +14,7 @@ const ContactInfo = [
     {
         icon: <Website />,
         title: "Website",
-        value: "www.theconsumermagazine.com"
+        value: "www.theconsumermagazine.com/"
     },
     {
         icon: <Email />,

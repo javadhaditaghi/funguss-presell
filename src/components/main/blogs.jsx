@@ -23,7 +23,7 @@ const Blogs = () => {
 
             <Helmet>
                 <title>Blogs</title>
-                <meta name="description" content="Explore our comprehensive blog section dedicated to fungus toenail solutions. Find expert tips, reviews of top-rated products, and natural remedies to help you achieve healthy, fungus-free nails." />
+                <meta name="description" content="Explore our comprehensive blog section dedicated to wart removal solutions. Find expert tips, reviews of top-rated products, and natural remedies to help you achieve clean skin without wart." />
             </Helmet>
 
             <Grid2 width={"100vw"} container>
