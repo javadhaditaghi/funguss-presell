@@ -9,6 +9,7 @@ import Specialist from "./header/specialist";
 import TopTextMob from "./header/topText-mob";
 import ChosenProduct from "./ChosenProduct/chosenProduct";
 import { Helmet } from 'react-helmet-async';
+import WhyThis from "./why/whythis";
 
 
 
@@ -23,8 +24,6 @@ const MainPage = () => {
         />
       </Helmet>
 
-
-
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
       <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} />
       <ArticleHeader />
@@ -34,6 +33,7 @@ const MainPage = () => {
         </Grid2>
         <Grid2 xs={11} md={11} lg={8.4} sx={{ m: "auto" }}>
           <Product />
+          <WhyThis />
           <FAQ />
         </Grid2>
         <Grid2 xs={0} md={.5} lg={1.8}>
