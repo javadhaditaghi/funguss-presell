@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import { Box, Typography, Link } from '@mui/material';
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2"
 import { styled } from '@mui/material/styles';
+import {Tooltip} from '@mui/material';
 
 
 const CustomLink = styled(Link)({
@@ -39,7 +40,7 @@ export default function Specialist() {
                             Senior Editor: <Box component="span" >Emily Carter</Box>
                         </Typography>
                         <CustomLink href="/wartremovalsolutions/contactus">Contact me</CustomLink>
-                        <CustomLink href="/wartremovalsolutions/about">About me</CustomLink>
+                        <Tooltip title="I’m Emily Carter, a skincare enthusiast who reviews products focused on improving skin health. I provide honest insights to help people find effective treatments for their skincare needs, ensuring they make informed choices. My goal is to simplify the process of achieving healthier, radiant skin."><CustomLink href="/wartremovalsolutions/about">About me</CustomLink></Tooltip>
                     </Box>
 
                 </Box>
