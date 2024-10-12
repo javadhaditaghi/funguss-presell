@@ -1,31 +1,28 @@
 
 [    
-    {
+    { 
     "id":"panel1",
-    "title": "What are the most common types of warts?",
-    "description": "Warts are typically categorized into several types, including common warts, plantar warts (on the feet), flat warts, and genital warts. Each type may require a different treatment approach."
-},
+    "title": "What is KP?",
+    "description": "KP is usually a bumpy rash that develops on the upper outer arms, upper thighs and cheeks. It has been widely known as “chicken skin”. KP may be accompanied by itching in some individuals, but as a rule, the reaction develops without visible signs. Sometimes this itching may lead to Eczema which could be assisted by using KP lotions."
+    }
+    ,
     {
     "id":"panel2",
-    "title": "How do wart removers work? ",
-    "description": "Most wart removers contain ingredients like salicylic acid or cryotherapy agents that help break down the wart tissue or freeze the wart to kill it at the root, encouraging the body to shed it naturally."
+    "title": "How do I use KP lotion?",
+    "description": "Apply KP lotion right after bathing when your skin is still moist."
    } ,
    
    { 
     "id":"panel3",
-    "title": "How long does it take for wart removers to show results?",
-    "description": "The time frame for visible results depends on the product used and the severity of the wart. Some wart removers can take a few days to weeks, while more persistent warts may require extended treatment."
+    "title": "When can I expect the results?",
+    "description": "You should start to see improvement in two to four weeks if you follow your treatment plan."
     },
-   
-   { 
-    "id":"panel4",
-    "title": "Are over-the-counter wart removers safe for all skin types?",
-    "description": "Most OTC wart removers are safe for general use, but it’s important to read labels and warnings. People with sensitive skin, allergies, or certain medical conditions should consult a healthcare provider before using these products."
-    },
-   
-   { 
-    "id":"panel5",
-    "title": "Can I use wart removers on children or infants?",
-    "description": "Some wart removers may not be suitable for young children or infants. It's always advisable to check the product’s age recommendation and consult a doctor before using wart removal treatments on children."
+    {
+        "id":"panel4",
+        "title": "What does KP lotion do?",
+        "description": "KP lotion, also known as topical exfoliants, helps remove dead skin cells, moisturize, and soften dry skin. It contains ingredients like lactic acid, salicylic acid, urea, or alpha hydroxy acid. "
     }
+   
+   
+   
     ]

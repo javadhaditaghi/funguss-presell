@@ -1,15 +1,15 @@
 {
     "product_one": {
       "id": 1,
-      "title": "Golden Nutrition Wart Remover",
+      "title": "Golden Nutrition Keratosis Pilaris Lotion",
       "rating": 9.5,
       "customerRating": 9.5,
       "imgURL": "goldennutrition.png",
       "price": "",
       "fivePrice": "",
-      "productAlt": "Golden Nutrition Wart Remover",
+      "productAlt": "Golden Nutrition Keratosis Pilaris Lotion",
 
-      "officialWebsite": "https://goldennutrition.com/collections/goldennutrition/products/golden-nutrition-wart-remover",
+      "officialWebsite": "https://goldennutrition.com/collections/all/products/golden-nutrition-keratosis-pilaris-lotion",
       "overallRating": 4.8,
       "reviewerCount": 55576,
       "formulaRate": 100,
@@ -21,12 +21,12 @@
     },
     "product_two": {
         "id": 2,
-        "title": "Compound W Wart Remover",
+        "title": "CeraVe SA Lotion",
         "rating": 8.6,
         "customerRating": 8.8,
-        "imgURL": "compoundW.png",
+        "imgURL": "cerave.png",
         "price": "",
-        "productAlt": "Compound W Wart Remover",
+        "productAlt": "CeraVe SA Lotion",
 
         "overallRating": 4.2,
         "reviewerCount": 612,
@@ -39,12 +39,12 @@
       },
       "product_three": {
         "id": 3,
-        "title": "Dr. Scholl's Clear Away Wart Remover",
+        "title": "AmLactin Daily Moisturizing Body Lotion",
         "rating": 7.2,
         "customerRating": 6.2,
-        "imgURL": "drScholl.png",
+        "imgURL": "amlactin.png",
         "price": "",
-        "productAlt": "Dr. Scholl's Clear Away Wart Remover",
+        "productAlt": "AmLactin Daily Moisturizing Body Lotion",
         
         "overallRating": 3.9,
         "reviewerCount": 433,
@@ -57,12 +57,12 @@
       },
       "product_four": {
         "id": 4,
-        "title": "WartStick Wart Remover",
+        "title": "Eucerin Roughness Relief Lotion",
         "rating": 6.5,
         "customerRating": 6.8,
-        "imgURL": "wartStick.png",
+        "imgURL": "eucerin.png",
         "price": "",
-        "productAlt": "WartStick Wart Remover",
+        "productAlt": "Eucerin Roughness Relief Lotion",
        
         "overallRating": 3.5,
         "reviewerCount": 472,
@@ -75,13 +75,12 @@
       },
       "product_five": {
         "id": 5,
-        "title": "Warticide Wart Remover",
+        "title": "KP Exfoliating Body Lotion by Touch",
         "rating": 5.9,
         "customerRating": 5.6,
-        "imgURL": "wartCide.png",
+        "imgURL": "touch.png",
         "price": "",
-        "productAlt": "Warticide Wart Remover",
-        
+        "productAlt": "KP Exfoliating Body Lotion by Touch",
         "overallRating": 3,
         "reviewerCount": 358,
         "formulaRate": 42,

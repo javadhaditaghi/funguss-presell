@@ -42,12 +42,12 @@ const ChosenProduct = () => {
                 <>
                     <Box sx={{ display: { xs: 'none', md: 'block' }, position: "fixed", right: "15px", bottom: "10px", backgroundColor: "rgba(45, 57, 40, .5)", padding: 3, borderRadius: "15px", textAlign: 'center', zIndex: 3 }}>
                         <Typography variant='body1' fontFamily={"Poppins"} fontSize={"10px"} color={"#ffffff"} letterSpacing={2} textAlign={"left"}>Top Rated Product</Typography>
-                        <Typography variant='h2' fontSize={"17px"} fontFamily={"Oswald"} fontWeight={600} pb={2} color={'#ffffff'}>Golden Nutrition Wart Remover</Typography>
+                        <Typography variant='h2' fontSize={"17px"} fontFamily={"Oswald"} fontWeight={600} pb={2} color={'#ffffff'}>Golden Nutrition Keratosis Pilaris Lotion</Typography>
                         <CardMedia
                             component="img"
                             height="170"
                             image='goldennutrition.png'
-                            alt='Golden Nutrition Wart Remover'
+                            alt='Golden Nutrition Keratosis Pilaris Lotion'
                             sx={{
                                 
                                 margin: 'auto',
@@ -56,7 +56,7 @@ const ChosenProduct = () => {
 
                             }}
                         />
-                        <Link href={"https://goldennutrition.com/collections/goldennutrition/products/golden-nutrition-wart-remover"} target="__blank">
+                        <Link href={"https://goldennutrition.com/collections/all/products/golden-nutrition-keratosis-pilaris-lotion"} target="__blank">
                             <Button
                                 sx={{
                                     backgroundColor: "#ffffff",
@@ -71,13 +71,13 @@ const ChosenProduct = () => {
                         </Link>
                     </Box>
 
-                    <Link href={"https://goldennutrition.com/collections/goldennutrition/products/golden-nutrition-wart-remover"} target="__blank">
+                    <Link href={"https://goldennutrition.com/collections/all/products/golden-nutrition-keratosis-pilaris-lotion"} target="__blank">
                         <CardActionArea>
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia
                                     component="img"
                                     image='goldennutrition.png'
-                                    alt='Golden Nutrition Wart Remover'
+                                    alt='Golden Nutrition Keratosis Pilaris Lotion'
                                     sx={{
                                         width: "100px",
                                         margin: 'auto',

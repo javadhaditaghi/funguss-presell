@@ -2,16 +2,14 @@
 {
     "product_one": {
     "pros": [
-        "<strong>Effective on various warts, calluses, and corns</strong>, plantar warts, flat warts, common warts",
-        "<strong>Contains 20% Salicylic Acid</strong> which is approved by the FDA",
-        "<strong>Fast-Acting formulation</strong> with excellent <strong>short-term results</strong>",
-        "<strong>A unique, special and powerful formula</strong> to reach maximum effectiveness",
-        "<strong>Enhanced with Tea Tree Oil, Thuja Occidentalis, Aloe Vera Extract, Vitamin E</strong> to help remove wart and rebuild damaged skin",
-        "<strong>Easy Application</strong> by cotton hands and corn-protection plasters",
-        "<strong>Made by the Golden Nutrition® brand</strong> that dominated all other brands in this vast market as a leader in having the best quality products with unique and potent formulas",
-        "<strong>Highest success rate and satisfaction percentage</strong>",
-        "<strong>Made in an FDA-certified facility</strong>",
-        "<strong>Cruelty-free (not tested on animals)</strong>"
+        "Exfoliates and hydrates effectively",
+        "Reduces redness and roughness",
+        "Creamy texture, smooth application",
+        "Gentle, nearly fragrance-free",
+        "Excellent for tiny, rough bumps",
+        "Long-lasting moisture",
+        "Made in an FDA Approved Facility and Cruelty-free",
+        "Long-lasting moisture"
     ],
     "cons": [
     "Only available online for sale.",
@@ -20,54 +18,55 @@
     },
     "product_two": {
     "pros": [
-    "Quick results expressed by consumers",
-    "Convenient application ",
-    "Removed wart layers"
+    "Gentle exfoliation and hydration",
+    "Restores skin’s natural barrier",
+    "Lightweight and non-greasy",
+    "Fragrance-free"
     ],
     "cons": [
-    "Lower Concentration, less impact on stubborn warts",
-    "Liquid dries quickly after dispensing",
-    "May take longer to show results",
-    "Overuse Risk of skin damage"
+    "Not as rich in texture",
+    "Greasy and heavy texture",
+    "Some users might dislike the scent of the product"
     ]
     },
 
     "product_three": {
     "pros": [
-    "Utilizing freezing action",
-    "plus salicylic acid",
-    "Applied easily on skin"
+    "Effective exfoliation and hydration",
+    "Improves skin texture",
+    "Long-lasting moisture",
+    "Rich texture"
   ],
   "cons": [
-    "Excessive high concentration of salicylic acid",
-    "Skin Irritation reported by some users",
-    "Freezing might cause discomfort or pain",
-    "Lengthy treatment process"
+    "Slightly medicinal fragrance",
+    "Heavier texture",
+    "Fragrance, annoying to sensitive users",
+    "Thick texture may feel greasy, slow absorption"
   ]
     },
     "product_four": {
         "pros": [
-            "Handy application on wart",
-            "Easily carried, portable product"
+            "Intense moisture and gentle exfoliation",
+            "Smooths skin texture",
+            "Long-lasting relief",
+            "Light, neutral fragrance"
           ],
           "cons": [
-            "Extensive care needed for big warts",
-            "Not suitable for sensitive areas",
-            "Time consuming treatment",
-            "Lower Active ingredients"
+            "Thick Substance",
+            "Staining Cloths",
+            "Unpleasant Fragrance"
           ]
     }
     ,
     "product_five": {
         "pros": [
-            "Results within days",
-            "Natural Ingredients, possessing therapeutic properties"
+            "Effective exfoliation and hydration",
+            "Lightweight and smooth texture"
           ],
           "cons": [
-            "Shows a wide variation in effectiveness between people",
-            "Discomfort reports on sensitive skin",
-            "Lengthy application required in some cases",
-            "More expensive in comparison to others"
+            "Not as intense in moisturizing",
+            "Poor packing ",
+            "Slow impact"
           ]
     }
     }
