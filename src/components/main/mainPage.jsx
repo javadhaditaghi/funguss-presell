@@ -10,6 +10,7 @@ import TopTextMob from "./header/topText-mob";
 import ChosenProduct from "./ChosenProduct/chosenProduct";
 import { Helmet } from 'react-helmet-async';
 import WhyThis from "./why/whythis";
+import MetaPixel from "../../util/metaPixel";
 
 
 
@@ -22,6 +23,7 @@ const MainPage = () => {
         <meta name='description'
           content='Discover the top-rated fungal nail solutions of 2024, including Funguss™, Yanail, EmoniNail, Spirularin, and YogaMedic. Each product is evaluated based on formula, user experience, certifications, and price, offering insights into effectiveness, natural ingredients, and customer satisfaction. Find the best option for healthier nails today.'
         />
+        {MetaPixel()}
       </Helmet>
 
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
