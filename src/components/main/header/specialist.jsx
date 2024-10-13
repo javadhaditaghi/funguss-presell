@@ -41,7 +41,7 @@ export default function Specialist() {
                     </Tooltip>
                     <Box sx={{ paddingLeft: 2 }}>
                         <Typography sx={{ color: "#555", fontSize:"18px", fontWeight:700 }}>
-                            Senior Editor: <Box component="span">Dr. Cynthia Clark</Box>
+                        <Box component="span">Dr. Cynthia Clark</Box>
                         </Typography>
                         <Tooltip title={aboutSpecialist}>Dermatologist</Tooltip>
                         <CustomLink href="/antifungalsolutions/contactus">Contact me</CustomLink>
