@@ -2,6 +2,7 @@ import { Typography, Box } from "@mui/material"
 import { styled } from '@mui/material';
 import jsonData from "./productText.json"
 import perser from 'html-react-parser';
+import OtherProducts from "../otherProducts/otherProducts";
 
 const CustomBox = styled(Box)({
     marginBottom: "20px",
@@ -10,7 +11,7 @@ const CustomBox = styled(Box)({
 });
 
 
-const ProductText = ({ product }) => {
+const ProductText = ({ product, sign }) => {
 
 
     return (
@@ -40,7 +41,9 @@ const ProductText = ({ product }) => {
                     <Typography key={index}>{perser(paragraph)}</Typography>
                 ))}
             </CustomBox>
-
+            {sign && <OtherProducts />}
+       
+          
             <CustomBox>
                 <Typography variant="h5">{product['bottom-line'].title}</Typography>
                 {product['bottom-line'].content.map((paragraph, index) => (

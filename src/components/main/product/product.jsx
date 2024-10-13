@@ -9,6 +9,7 @@ import Disclaimer from "./disclaimer"
 import { Box, Link, Button } from "@mui/material"
 
 
+
 const Product = () => {
     return (
         <>
@@ -16,8 +17,10 @@ const Product = () => {
                 <ProductCardHeader product={cardData.funguss} />
                 <ProductCardInfo product={cardData.funguss} />
             </ProductCard>
-            <ProductText product={jsonData.funguss} />
+            <ProductText product={jsonData.funguss} sign="fung" />
+          
             <ProsandCons product="funguss" />
+            
             <Box sx={{ display: "flex", justifyContent: "center", mt: "40px" }}>
                 <Link href={"https://goldennutrition.com"} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d", fontSize: "1.1rem" }} >Checkout the Official Website »</Button></Link>
             </Box>
