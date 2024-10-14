@@ -32,15 +32,15 @@ export default function Specialist() {
                     <Avatar
                         alt="Remy Sharp"
                         src="specialist.jpg"
-                        sx={{ width: 100, height: 100 }}
+                        sx={{ width: 120, height: 120 }}
                         variant='rounded'
                     />
                     <Box sx={{ paddingLeft: 2 }}>
-                        <Typography sx={{ color: "#555" }}>
-                            Senior Editor: <Box component="span" >Emily Carter</Box>
+                        <Typography sx={{ color: "#555", fontSize:"18px", fontWeight:"700" }}>
+                            <Box component="span" >Dr. Cynthia Clark</Box>
                         </Typography>
+                        <Tooltip title="I’m Dr. Cynthia Clark, a dermatologist who reviews products focused on improving skin health. I provide honest insights to help people find effective treatments for their skincare needs, ensuring they make informed choices. My goal is to simplify the process of achieving healthier, radiant skin."><CustomLink sx={{color:"black"}}>Dermatologist</CustomLink></Tooltip>
                         <CustomLink href="/bestkplotions/contactus">Contact me</CustomLink>
-                        <Tooltip title="I’m Emily Carter, a skincare enthusiast who reviews products focused on improving skin health. I provide honest insights to help people find effective treatments for their skincare needs, ensuring they make informed choices. My goal is to simplify the process of achieving healthier, radiant skin."><CustomLink href="/bestkplotions/about">About me</CustomLink></Tooltip>
                     </Box>
 
                 </Box>
