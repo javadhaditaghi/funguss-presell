@@ -65,7 +65,7 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box sx={{ my: 2 }}>
-                        <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice}<Box display={"inline"} fontWeight={400}> each</Box></Box></Box>} </Typography>
+                        {/* <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice}<Box display={"inline"} fontWeight={400}> each</Box></Box></Box>} </Typography> */}
                         {product.officialWebsite && <Typography>Official Website: <CustomLink href={product.officialWebsite}>Visit Now</CustomLink></Typography>}
 
                         <Typography>Guarantee: <Box fontWeight={600} display={"inline"}>100% Money Back</Box></Typography>
