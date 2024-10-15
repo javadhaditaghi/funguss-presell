@@ -1,15 +1,14 @@
 {
     "funguss": {
       "id": 1,
-      "title": "Golden Nutrition Funguss",
+      "title": "Funguss",
+      "name": "funguss",
       "rating": 9.5,
       "customerRating": 9.5,
       "imgURL": "funguss.png",
       "price": 39.95,
       "fivePrice": 19.99,
       "productAlt": "Golden Nutrition Toenail Funguss Treatment",
-      
-
       "officialWebsite": "https://goldennutrition.com",
       "overallRating": 4.8,
       "reviewerCount": 55576,
@@ -18,11 +17,14 @@
       "cartificateRate": 99,
       "priceRate": 100,
       "backgroundColor": "#E8FFDE",
-      "ribonBackgroundColor": "#8FFF00"
+      "ribonBackgroundColor": "#8FFF00",
+      "summery": "Funguss™ Fungal Nail Solution is the top-rated product due to its well-balanced natural and chemical ingredients, excellent customer reviews, and reasonable price. It effectively combats fungal infections with a potent blend of ingredients like Undecylenic Acid, Tea Tree Oil, and Aloe Vera. Manufactured in an FDA-registered, cruelty-free facility, it ensures safety and quality. Users report noticeable improvements within weeks. The brand's diverse range, including sprays, repair pens, patches, and supplements, caters to various needs. With responsible customer service and a money-back guarantee, Funguss™ is a reliable choice for comprehensive nail care."
+
     },
     "yanail": {
         "id": 2,
         "title": "Yanail",
+        "name": "yanail",
         "rating": 8.6,
         "customerRating": 8.8,
         "imgURL": "yanail.png",
@@ -35,12 +37,14 @@
         "userExpRate": 92,
         "cartificateRate": 90,
         "priceRate": 85,
-        "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#C1E297"
+        "backgroundColor": "#E8FFDE",
+        "ribonBackgroundColor": "#C1E297",
+        "summery": "YogaMedic efiwsuereiru is great for improving posture and flexibility."
       },
       "emoniNail": {
         "id": 3,
         "title": "EmoniNail™",
+        "name": "emoniNail",
         "rating": 7.2,
         "customerRating": 6.2,
         "imgURL": "emoniNail.png",
@@ -53,12 +57,14 @@
         "userExpRate": 72,
         "cartificateRate": 78,
         "priceRate": 75,
-        "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#C1E297"
+        "backgroundColor": "#E8FFDE",
+        "ribonBackgroundColor": "#C1E297",
+        "summery": "YogaMedic dfkejf is great for improving posture and flexibility."
       },
       "spirularin": {
         "id": 4,
         "title": "Spirularin",
+        "name": "spirularin",
         "rating": 6.5,
         "customerRating": 6.8,
         "imgURL": "spirularin.png",
@@ -71,12 +77,14 @@
         "userExpRate": 69,
         "cartificateRate": 59,
         "priceRate": 95,
-        "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#C1E297"
+        "backgroundColor": "#E8FFDE",
+        "ribonBackgroundColor": "#C1E297",
+        "summery": "YogaMedic sdfkhsdkfdh is great for improving posture and flexibility."
       },
       "yogaMedic": {
         "id": 5,
         "title": "YogaMedic",
+        "name": "yogaMedic",
         "rating": 5.9,
         "customerRating": 5.6,
         "imgURL": "yogamedic.png",
@@ -89,7 +97,8 @@
         "userExpRate": 43,
         "cartificateRate": 65,
         "priceRate": 99,
-        "backgroundColor": "#ffff",
-        "ribonBackgroundColor": "#C1E297"
+        "backgroundColor": "#E8FFDE",
+        "ribonBackgroundColor": "#C1E297",
+        "summery": "YogaMedic weoiruiorgf is great for improving posture and flexibility."
       }
   }

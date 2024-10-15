@@ -8,8 +8,8 @@ import CardContent from '@mui/material/CardContent';
 
 export default function ProsandConsCard(props) {
     return (
-        <Box sx={{ minWidth: 275 }}>
-            <Card variant="outlined" sx={{ border: "1px solid #6C757D", background: "#F8F9FA" }}>
+        <Box sx={{ height: "100%" }}>
+            <Card variant="outlined" sx={{ border: "1px solid #6C757D", background: "#F8F9FA", height:"100% !important" }}>
                 <React.Fragment>
                     <CardContent>
                         {props.children}

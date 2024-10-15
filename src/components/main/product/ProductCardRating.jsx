@@ -5,6 +5,7 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 import { styled } from '@mui/material/styles';
 
 
+
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: "25px", // Default height for medium screens
     borderRadius: 5,
@@ -28,31 +29,34 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 export default function ProductCardRating({ product }) {
     return (
+        
         <Box textAlign={"center"}>
-            <Typography fontWeight={700} sx={{ fontSize: { xs: "50px", md: '4vw' } }}>{product.overallRating}</Typography>
-            <Rating name="half-rating-read" defaultValue={product.overallRating} precision={0.5} readOnly sx={{ fontSize: { xs: "50px", md: '4vw' } }} />
-            <Typography fontWeight={700} sx={{ fontSize: '1.2rem' }}>Based on {product.reviewerCount} reviews</Typography>
+         
+            <Typography fontWeight={700} sx={{ fontSize: { xs: "25px", md: '2.5vw' } }}>{product.overallRating}</Typography>
+            <Rating name="half-rating-read" defaultValue={product.overallRating} precision={0.1} readOnly sx={{ fontSize: { xs: "25px", md: '2.5vw' } }} />
+            <Typography fontWeight={700} sx={{ fontSize: '1.1rem' }}>Based on {product.reviewerCount} reviews</Typography>
 
             <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
                 <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", width: "100%", my: "5px" }}>
-                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '16px' } }}> Formula </Typography>
+                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '14px' } }}> Formula </Typography>
                     <BorderLinearProgress variant="determinate" value={product.formulaRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", my: "5px" }}>
-                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '16px' } }}> User Exp </Typography>
+                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '14px' } }}> User Exp </Typography>
                     <BorderLinearProgress variant="determinate" value={product.userExpRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", my: "5px" }}>
-                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '16px' } }}> Certificates </Typography>
+                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '14px' } }}> Certifica </Typography>
                     <BorderLinearProgress variant="determinate" value={product.cartificateRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", my: "5px" }}>
-                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '16px' } }}> Price </Typography>
+                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '14px' } }}> Price </Typography>
                     <BorderLinearProgress variant="determinate" value={product.priceRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
-
             </Box>
-
+          
         </Box>
+        
+      
     );
 }

@@ -11,6 +11,7 @@ import ChosenProduct from "./ChosenProduct/chosenProduct";
 import { Helmet } from 'react-helmet-async';
 import WhyThis from "./why/whythis";
 import MetaPixel from "../../util/metaPixel";
+import { Box } from "@mui/material";
 
 
 
@@ -26,8 +27,10 @@ const MainPage = () => {
         {MetaPixel()}
       </Helmet>
 
-      <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
-      <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} />
+      {/* <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
+      <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} /> */}
+
+      <Box sx={{marginTop:"150px"}}></Box>
       <ArticleHeader />
       <Grid2 container>
         <Grid2 xs={0} md={.5} lg={1.8}>

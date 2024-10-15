@@ -11,7 +11,7 @@ import perser from 'html-react-parser';
 
 
 const ProsandCons = ({ product }) => {
-    console.log(typeof (product))
+    
 
     return (
         <ProsandConsCard>
