@@ -8,6 +8,11 @@ import styled from "@emotion/styled"
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { Helmet } from 'react-helmet-async';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
+
 
 
 const CustomizedBox = styled(Box)({
@@ -23,17 +28,65 @@ const CustomizedBox = styled(Box)({
 
 });
 
-
-
-
-
-
-
-
-
-
-
 const Contactus = () => {
+
+    const form = useRef();
+    const [open, setOpen] = React.useState(false);
+    const [openError, setOpenError] = React.useState(false);
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+    });
+
+
+    // Handler for input field changes
+    const handleInputChange = event => {
+        const { name, value } = event.target;
+        setFormData(prevFormData => ({
+            ...prevFormData,
+            [name]: value,
+        }));
+    };
+
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_ns4lxz7', 'template_vhnbb5i', form.current, {
+                publicKey: 'k7SWEFkoeXC0c3gwI',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    setFormData({ name: "", email: "", subject: "", message: "" });
+                    setOpen(true);
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                    setOpenError(true);
+                },
+            );
+    };
+
+
+    const handleClose = (event, reason) => {
+        if (reason === 'clickaway') {
+          return;
+        }
+    
+        setOpen(false);
+        setOpenError(false);
+      };
+
+
+
+
+    
+
     return (
         <>
             <Helmet>
@@ -120,28 +173,93 @@ const Contactus = () => {
                                     CONTACT US
                                 </Typography>
 
-                                <form>
-
+                                <form ref={form} onSubmit={sendEmail}>
                                     <Box mt={2}>
-                                        <TextField id="Name" label="Name" type="text" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
+                                        <TextField
+                                            name="name"
+                                            id="name"
+                                            placeholder="Name *"
+                                            label="Name"
+                                            type="text"
+                                            className="form-control"
+                                            onChange={handleInputChange}
+                                            value={formData.name}
+                                            required
+                                            sx={{ width: "100%" }}
+                                            InputProps={{ sx: { borderRadius: "10px" } }}
+                                        />
                                     </Box>
                                     <Box mt={2}>
-                                        <TextField id="email" label="Email" type="email" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
+                                        <TextField
+                                            name="email"
+                                            id="email"
+                                            placeholder="Email *"
+                                            label="Email"
+                                            type="email"
+                                            className="form-control"
+                                            onChange={handleInputChange}
+                                            value={formData.email}
+                                            required
+                                            sx={{ width: "100%" }}
+                                            InputProps={{ sx: { borderRadius: "10px" } }}
+                                        />
                                     </Box>
                                     <Box mt={2}>
-                                        <TextField id="subject" label="Subject" type="text" sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
+                                        <TextField
+                                            name="subject"
+                                            id="subject"
+                                            placeholder="Subject *"
+                                            label="Subject"
+                                            type="text"
+                                            className="form-control"
+                                            onChange={handleInputChange}
+                                            value={formData.subject}
+                                            required
+                                            sx={{ width: "100%" }}
+                                            InputProps={{ sx: { borderRadius: "10px" } }}
+                                        />
                                     </Box>
                                     <Box mt={2}>
-                                        <TextField id="Message" label="Your Question" multiline maxRows={10} rows={4} sx={{ width: "100%" }} InputProps={{ sx: { borderRadius: "10px" } }} />
+                                        <TextField
+                                            name="message"
+                                            id="message"
+                                            placeholder="Your Question *"
+                                            label="Your Question"
+                                            multiline
+                                            maxRows={10}
+                                            rows={4}
+                                            className="form-control"
+                                            onChange={handleInputChange}
+                                            value={formData.message}
+                                            required
+                                            sx={{ width: "100%" }}
+                                            InputProps={{ sx: { borderRadius: "10px" } }}
+                                        />
                                     </Box>
-
                                     <Box mt={2} sx={{ width: "100%", textAlign: "center" }}>
-                                        <Button type="submit" variant="contained"  >Send the Message</Button>
+                                        <Button type="submit" variant="contained">Send the Message</Button>
                                     </Box>
                                 </form>
-
-
-
+                                <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+                                    <Alert
+                                        onClose={handleClose}
+                                        severity="success"
+                                        variant="filled"
+                                        sx={{ width: '100%' }}
+                                    >
+                                        Your Email has been successfully sent!
+                                    </Alert>
+                                </Snackbar>
+                                <Snackbar open={openError} autoHideDuration={6000} onClose={handleClose}>
+                                    <Alert
+                                        onClose={handleClose}
+                                        severity="error"
+                                        variant="filled"
+                                        sx={{ width: '100%' }}
+                                    >
+                                        Oops Something went wrong! 
+                                    </Alert>
+                                </Snackbar>
 
                             </Grid2>
 
