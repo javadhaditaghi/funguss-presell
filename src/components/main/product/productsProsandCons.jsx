@@ -15,6 +15,7 @@ const ProsandCons = ({ product }) => {
 
     return (
         <ProsandConsCard>
+        <Typography variant='h6' fontWeight={700}>Pros & Cons:</Typography>
 
             {
                 jsonData[product].pros.map((pro, index) => (

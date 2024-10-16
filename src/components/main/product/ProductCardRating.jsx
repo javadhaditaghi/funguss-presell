@@ -46,7 +46,7 @@ export default function ProductCardRating({ product }) {
                     <BorderLinearProgress variant="determinate" value={product.userExpRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", my: "5px" }}>
-                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '14px' } }}> Certifica </Typography>
+                    <Typography fontFamily={"Open Sans"} fontWeight={700} sx={{ fontSize: { xs: "13px", md: '13px' } }}> Certificate </Typography>
                     <BorderLinearProgress variant="determinate" value={product.cartificateRate} sx={{ mb: 0, width: "75%" }} />
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", my: "5px" }}>
