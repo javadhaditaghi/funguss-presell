@@ -41,7 +41,11 @@ const ProductText = ({ product, sign }) => {
                     <Typography key={index}>{perser(paragraph)}</Typography>
                 ))}
             </CustomBox>
-            {sign && <OtherProducts />}
+
+            {/* 
+                Extra products inside presale
+                
+                {sign && <OtherProducts />} */}
        
           
             <CustomBox>
