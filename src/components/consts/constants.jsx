@@ -16,11 +16,11 @@ const ContactInfo = [
         title: "Website",
         value: "www.theconsumermagazine.com"
     },
-    {
-        icon: <Email />,
-        title: "Email",
-        value: "info@theconsumermagazine.com"
-    },
+    // {
+    //     icon: <Email />,
+    //     title: "Email",
+    //     value: "info@theconsumermagazine.com"
+    // },
 
 
 
