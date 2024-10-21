@@ -40,7 +40,7 @@ const ProductCardInfo = ({ product }) => {
                     <Box>
                         <Typography color={"#555"}>Our Rating: <Typography color={"#28A745"} fontWeight={600} sx={{ display: "inline" }}>{product.rating}/10</Typography></Typography>
                         <Typography color={"#555"}>Customer Rating: <Typography color={"#28A745"} fontWeight={600} sx={{ display: "inline" }}>{product.customerRating}/10</Typography> ({product.reviewerCount} Votes)</Typography>
-
+                        <Typography color={"#555"}>Coupon Code: <Typography color={"#28A745"} fontWeight={600} sx={{ display: "inline" }}>{product.CouponCode}</Typography> <strong>({product.CouponCodeDig})</strong></Typography>
                     </Box>
                     <Box>
                         {/* <Typography>Price: <Box fontWeight={600} display={"inline"}>${product.price}</Box> {product.fivePrice && <Box display={"inline"}>/ 5 bottles:  <Box fontWeight={600} display={"inline"}>${product.fivePrice}<Box display={"inline"} fontWeight={400}> each</Box></Box></Box>} </Typography> */}
