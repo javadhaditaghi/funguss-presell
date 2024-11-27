@@ -68,7 +68,7 @@ const ChosenProduct = () => {
                                 Official Website
                             </Button>
                         </Link>
-                        <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", textAlign:"center", mt:1 }}>Enjoy 20% off: SAVE20</Typography>
+                        {/* <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", textAlign:"center", mt:1 }}>Enjoy 20% off: SAVE20</Typography> */}
                     </Box>
 
                     <Link href={"https://goldennutrition.com"} target="__blank">
@@ -94,7 +94,7 @@ const ChosenProduct = () => {
                                         animation: `${bounce} 1s infinite`
                                     }} /> </Typography>
                                     <Typography fontSize={"25px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Golden Nutrition Funguss</Typography>
-                                    <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Enjoy 20% off with code SAVE20!</Typography>
+                                    {/* <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Enjoy 20% off with code SAVE20!</Typography> */}
                                 </Box>
                             </Box>
                         </CardActionArea>
