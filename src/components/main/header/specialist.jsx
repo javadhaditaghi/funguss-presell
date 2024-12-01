@@ -44,7 +44,7 @@ export default function Specialist() {
                         <Box component="span">Dr. Cynthia Clark</Box>
                         </Typography>
                         <Tooltip title={aboutSpecialist}>Dermatologist</Tooltip>
-                        <CustomLink href="/antifungalsolutions/contactus">Contact me</CustomLink>
+                        <CustomLink href="/contactus">Contact me</CustomLink>
                     </Box>
 
                 </Box>

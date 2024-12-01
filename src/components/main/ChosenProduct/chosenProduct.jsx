@@ -55,7 +55,7 @@ const ChosenProduct = () => {
 
                             }}
                         />
-                        <Link href={"https://goldennutrition.com"} target="__blank">
+                        <Link href={"https://cutiebeauti.com/products/eyelash-enhancer"} target="__blank">
                             <Button
                                 sx={{
                                     backgroundColor: "#ffffff",
@@ -71,7 +71,7 @@ const ChosenProduct = () => {
                         {/* <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", textAlign:"center", mt:1 }}>Enjoy 20% off: SAVE20</Typography> */}
                     </Box>
 
-                    <Link href={"https://goldennutrition.com"} target="__blank">
+                    <Link href={"https://cutiebeauti.com/products/eyelash-enhancer"} target="__blank">
                         <CardActionArea>
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia

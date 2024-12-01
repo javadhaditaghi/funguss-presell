@@ -30,10 +30,10 @@ import logoPhoto from '/src/assets/logo.png';
 
 const drawerWidth = 240;
 const navItems = [
-  ["1", 'Home', "/antifungalsolutions/"],
-  ["2", 'About', "/antifungalsolutions/about"],
-  // ["3", 'Blogs', "/antifungalsolutions/blogs"],
-  ["4", 'Contact us', "/antifungalsolutions/contactus"],
+  ["1", 'Home', "/"],
+  ["2", 'About', "/about"],
+  // ["3", 'Blogs', "/blogs"],
+  ["4", 'Contact us', "/contactus"],
 ];
 
 function DrawerAppBar(props) {
@@ -154,11 +154,11 @@ function DrawerAppBar(props) {
       </nav>
       <Box component="main">
         <Routes>
-          <Route path='antifungalsolutions/' element={<MainPage />} />
-          <Route path='antifungalsolutions/about' element={<About />} />
-          <Route path='antifungalsolutions/blogs' element={<Blogs />} />
-          <Route path='antifungalsolutions/blogs/:title' element={<BlogContent />} />
-          <Route path='antifungalsolutions/contactus' element={<Contactus />} />
+          <Route path='/' element={<MainPage />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/blogs' element={<Blogs />} />
+          <Route path='/blogs/:title' element={<BlogContent />} />
+          <Route path='/contactus' element={<Contactus />} />
         </Routes>
 
         <Footer />
