@@ -20,7 +20,7 @@ import Blogs from '../main/blogs';
 import { Route, Link, Routes } from 'react-router-dom';
 import BlogContent from '../main/Blogs/BlogContent';
 import blogData from '../main/Blogs/blogsData.json';
-import logoPhoto from '/src/assets/logo.webp';
+import logoPhoto from '/src/assets/logo.png';
 
 
 
@@ -32,7 +32,7 @@ const drawerWidth = 240;
 const navItems = [
   ["1", 'Home', "/antifungalsolutions/"],
   ["2", 'About', "/antifungalsolutions/about"],
-  ["3", 'Blogs', "/antifungalsolutions/blogs"],
+  // ["3", 'Blogs', "/antifungalsolutions/blogs"],
   ["4", 'Contact us', "/antifungalsolutions/contactus"],
 ];
 
@@ -53,7 +53,7 @@ function DrawerAppBar(props) {
         fontFamily={"Oswald"}
         fontWeiight={700}
       >
-        The Consumer Magazine
+        Lash Enhancer Reviews
       </Typography>
       <Divider />
       <Box>
@@ -87,7 +87,7 @@ function DrawerAppBar(props) {
                   <CardMedia
                     component="img"
                     src={logoPhoto}
-                    alt="The Consumer Magazine"
+                    alt="Lash Enhancer Reviews"
                     sx={{ width: { xs: "40px", md: "90px" } }}
                   />
                 </Box>
@@ -114,9 +114,9 @@ function DrawerAppBar(props) {
                   fontWeiight={700}
 
                 >
-                  The Consumer Magazine
+                  Lash Enhancer Reviews
                 </Typography>
-                <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={14} sx={{ fontSize: { sm: 14, lg: 16 } }} textTransform={"uppercase"} fontWeight={600}>Finding the highest quality and most affordable products for you!</Typography>
+                <Typography fontFamily={"Oswald"} color={"#53B8E2"} fontSize={14} sx={{ fontSize: { sm: 14, lg: 16 } }} textTransform={"uppercase"} fontWeight={600}>Finding the most cost-efficient and effective eyelash enhancer available!</Typography>
               </Box>
             </Box>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: "space-between", alignItems: "space-between" }}>

@@ -91,8 +91,8 @@ const Contactus = () => {
         <>
             <Helmet>
                 <title>Contact us</title>
-                <meta name="description" content="Get in touch with The Consumer Magazine for any inquiries, feedback, or assistance. Our team is dedicated to providing prompt and helpful support. Contact us today!" />
-                <meta name="keywords" content="Contact, The Consumer Magazine, customer support, feedback, inquiries, assistance" />
+                <meta name="description" content="Get in touch with Lash Enhancer Reviews for any inquiries, feedback, or assistance. Our team is dedicated to providing prompt and helpful support. Contact us today!" />
+                <meta name="keywords" content="Contact, Lash Enhancer Reviews, customer support, feedback, inquiries, assistance" />
             </Helmet>
 
             <Box width={"100vw"}>
@@ -118,7 +118,7 @@ const Contactus = () => {
                                     or want to learn more about our work, we’re here to help.
                                 </Typography>
                                 <Typography>
-                                    Our team is committed to providing you with prompt and helpful support. Thank you for choosing The Consumer Magazine!
+                                    Our team is committed to providing you with prompt and helpful support. Thank you for choosing Lash Enhancer Reviews!
                                 </Typography>
                             </Grid2>
 

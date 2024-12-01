@@ -1,17 +1,17 @@
 {
     "funguss": {
       "id": 1,
-      "title": "Golden Nutrition Funguss",
+      "title": "Cutiebeauti Eyelash Enhancer",
       "rating": 9.5,
       "customerRating": 9.5,
-      "imgURL": "funguss.png",
+      "imgURL": "1.cutiebeauti.png",
       "price": 39.95,
       "fivePrice": 19.99,
-      "productAlt": "Golden Nutrition Toenail Funguss Treatment",
+      "productAlt": "Cutiebeauti Eyelash Enhancer",
       "CouponCode":"Yes",
       "CouponCodeDig":"",
 
-      "officialWebsite": "https://goldennutrition.com",
+      "officialWebsite": "https://www.cutiebeauti.com/",
       "overallRating": 4.8,
       "reviewerCount": 55576,
       "formulaRate": 100,
@@ -23,12 +23,12 @@
     },
     "yanail": {
         "id": 2,
-        "title": "Yanail",
+        "title": "GrandeLASH Lash Enhancing Serum",
         "rating": 8.6,
         "customerRating": 8.8,
-        "imgURL": "yanail.png",
+        "imgURL": "2.grandcosmetics.png",
         "price": 43.99,
-        "productAlt": "Yanail Toenail Funguss Treatment",
+        "productAlt": "Grande Cosmetics GrandeLASH-MD Enhancing Serum",
         "CouponCode":"No",
       
         "overallRating": 4.2,
@@ -42,12 +42,12 @@
       },
       "emoniNail": {
         "id": 3,
-        "title": "EmoniNail™",
+        "title": "LashFood",
         "rating": 7.2,
         "customerRating": 6.2,
-        "imgURL": "emoniNail.png",
+        "imgURL": "3.lashfood.png",
         "price": 59.95,
-        "productAlt": "EmoniNail Toenail Funguss Treatment",
+        "productAlt": "LashFood",
         "CouponCode":"No",
         
         "overallRating": 3.9,
@@ -61,12 +61,12 @@
       },
       "spirularin": {
         "id": 4,
-        "title": "Spirularin",
+        "title": "Liaison Lash Bond",
         "rating": 6.5,
         "customerRating": 6.8,
-        "imgURL": "spirularin.png",
+        "imgURL": "4.liaison.png",
         "price": 34.99,
-        "productAlt": "Spirularin Toenail Funguss Treatment",
+        "productAlt": "Liaison Lash Bond",
         "CouponCode":"No",
         
         
@@ -82,12 +82,12 @@
       },
       "yogaMedic": {
         "id": 5,
-        "title": "YogaMedic",
+        "title": "REALASH Eyelash Enhancing Serum",
         "rating": 5.9,
         "customerRating": 5.6,
-        "imgURL": "yogamedic.png",
+        "imgURL": "5.realash.png",
         "price": 37.95,
-        "productAlt": "YogaMedic Toenail Funguss Treatment",
+        "productAlt": "REALASH Eyelash Enhancing Serum",
         "CouponCode":"No",
         
         "overallRating": 3,

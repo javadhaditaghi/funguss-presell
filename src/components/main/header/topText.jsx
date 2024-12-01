@@ -6,13 +6,13 @@ const TopText = () => {
     return (
         <>
             <Typography sx={{ paddingTop: { xs: "160px", md: "150px", xl: "180px" } }} fontFamily={"Poppins"} color={"#5C645E"} fontWeight={600} letterSpacing={2.4}>
-                WELCOME TO CONSUMER MAG
+                LASH ENHANCER REVIEWS
             </Typography>
-            <Typography fontFamily={"Poppins"} color={"#2D3928"} fontSize={{ xs: 30, md: 36, lg: 42, xl: 47 }} fontWeight={600}>
-                The Fastest Way to Get Rid of Fungus
+            <Typography fontFamily={"Poppins"} color={"#2D3928"} fontSize={{ xs: 28, md: 34, lg: 35, xl: 38 }} fontWeight={600}>
+                The Way to Find the Best Eyelash Enhancing Serum Available
             </Typography>
             <Typography fontFamily={"DM Sans"} color={"#3A3A3A"} fontSize={"17.6px"} fontWeight={400} sx={{ display: { xs: "none", md: "block" } }}>
-                Consumer Magazine is the #1 Website to find out the best fungal infection treatments chosen by experts.
+            The #1 Website for Achieving Stunning Lashes with Top-Rated Products
             </Typography>
             {/* <Button variant="contained" sx={{ marginTop: "15px", backgroundColor: "#5C645E" }} >MAKE APPOINMENT</Button> */}
         </>

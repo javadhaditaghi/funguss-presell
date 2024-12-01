@@ -21,13 +21,13 @@ const MainPage = () => {
     <>
       <Helmet>
         <meta name='description'
-          content='Discover the top-rated fungal nail solutions of 2024, including Funguss™, Yanail, EmoniNail, Spirularin, and YogaMedic. Each product is evaluated based on formula, user experience, certifications, and price, offering insights into effectiveness, natural ingredients, and customer satisfaction. Find the best option for healthier nails today.'
+          content='Explore the top-rated eyelash serums of 2024, including Cutiebeauti, GrandeLASH-MD, LashFood, Liaison Lash Bond, and REALASH. Each product is evaluated based on formula, user experience, effectiveness, and price, offering insights into natural ingredients, user satisfaction, and safety. Find the best option for longer, fuller lashes today.'
         />
         {MetaPixel()}
       </Helmet>
 
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
-      <MobileHeader imgURL='header-mobile.png' text={<TopTextMob />} specialist={<Specialist />} />
+      <MobileHeader imgURL='header-mobile.jpg' text={<TopTextMob />} specialist={<Specialist />} />
       <ArticleHeader />
       <Grid2 container>
         <Grid2 xs={0} md={.5} lg={1.8}>

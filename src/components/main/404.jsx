@@ -16,7 +16,7 @@ const Error404 = () => {
             <CardMedia
                 component="img"
                 src={Error404Image}
-                alt="The Consumer Magazine"
+                alt="Lash Enhancer Reviews"
                 sx={{ borderRadius: "10px", float: "right", mb: 1, width: "50%" }}
             />
 

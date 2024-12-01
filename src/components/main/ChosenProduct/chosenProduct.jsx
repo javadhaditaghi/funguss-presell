@@ -41,12 +41,12 @@ const ChosenProduct = () => {
                 <>
                     <Box sx={{ display: { xs: 'none', md: 'block' }, position: "fixed", right: "15px", bottom: "10px", backgroundColor: "rgba(45, 57, 40, .5)", padding: 3, borderRadius: "15px", textAlign: 'center', zIndex: 3 }}>
                         <Typography variant='body1' fontFamily={"Poppins"} fontSize={"10px"} color={"#ffffff"} letterSpacing={2} textAlign={"left"}>Top Rated Product</Typography>
-                        <Typography variant='h2' fontSize={"17px"} fontFamily={"Oswald"} fontWeight={600} pb={2} color={'#ffffff'}>Golden Nutrition Funguss</Typography>
+                        <Typography variant='h2' fontSize={"17px"} fontFamily={"Oswald"} fontWeight={600} pb={2} color={'#ffffff'}>Cutiebeauti Eyelash Enhancer</Typography>
                         <CardMedia
                             component="img"
                             height="170"
-                            image='funguss1.png'
-                            alt='Golden Nutrition Funguss'
+                            image='cutiebeautiside.png'
+                            alt='Cutiebeauti Eyelash Enhancing Serum'
                             sx={{
                                 
                                 margin: 'auto',
@@ -76,8 +76,8 @@ const ChosenProduct = () => {
                             <Box sx={{ display: { xs: 'block', md: 'none' }, position: "fixed", right: "0px", bottom: "0px", left: "0px", backgroundColor: "rgba(45, 57, 40, .8)", padding: 2, borderRadius: "15px 15px 0 0 ", textAlign: 'center', zIndex: 3 }}>
                                 <CardMedia
                                     component="img"
-                                    image='funguss1.png'
-                                    alt='Golden Nutrition Funguss'
+                                    image='cutiebeautiside.png'
+                                    alt='Cutiebeauti Eyelash Enhancing Serum'
                                     sx={{
                                         width: "100px",
                                         margin: 'auto',
@@ -93,7 +93,7 @@ const ChosenProduct = () => {
                                         top: 7,
                                         animation: `${bounce} 1s infinite`
                                     }} /> </Typography>
-                                    <Typography fontSize={"25px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Golden Nutrition Funguss</Typography>
+                                    <Typography fontSize={"25px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Cutiebeauti Eyelash Enhancer</Typography>
                                     {/* <Typography fontSize={"15px"} fontFamily={"Oswald"} color={"#ffffff"} sx={{ position: "relative", left: "35%", textAlign:"left" }}>Enjoy 20% off with code SAVE20!</Typography> */}
                                 </Box>
                             </Box>

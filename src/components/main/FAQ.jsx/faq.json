@@ -2,18 +2,23 @@
 [    
     {
     "id":"panel1",
-    "title": "How did I get nail fungus?",
-    "description": "Fungal nail infections can be caused by many different types of fungi (yeasts or molds) that live in the environment. Small cracks in your nail or the surrounding skin can allow these germs to enter your nail and cause an infection."
+    "title": "What is the primary benefit of using an eyelash enhancing serum?",
+    "description": "Eyelash enhancing serums are designed to promote the growth and thickness of your natural lashes. They typically contain active ingredients like peptides, amino acids, and botanical extracts that nourish the hair follicles, leading to longer, fuller, and healthier-looking lashes. Regular use of these serums can help reduce lash breakage, enhance lash length, and improve overall lash density."
 },
     {
     "id":"panel2",
-    "title": "How do I fix nail fungus?",
-    "description": "The way you treat toenail fungus depends on how bad the infection is. One of the best solutions for this infection to repair damaged nails and cuticles is using nail fungus drops, but selecting the best nail fungus remedy product is often difficult, so we hope this article can finds you well."
+    "title": "How long does it take to see results from an eyelash enhancing serum?",
+    "description": "The time it takes to see results can vary depending on the product and individual usage. Generally, most eyelash serums show noticeable improvements within 4-6 weeks of consistent application. However, full results may take up to 12 weeks. It's important to follow the product's instructions and apply the serum regularly to achieve the best results."
    } ,
    
    { 
     "id":"panel3",
-    "title": "How do we find the good nail fungus products?",
-    "description": "We went out and compared some of the top nail fungus remedies to see which ones really worked and which ones can not be effectiveness. What we've done is taken out all of the guessing, research, frustration, and filtered out the scams and we have compiled a list of the most effective fungus removal remedies on the market."
+    "title": "Are eyelash enhancing serums safe to use with contact lenses and lash extensions?",
+    "description": "Yes, many eyelash enhancing serums are formulated to be safe for use with contact lenses and lash extensions. Products like Cutiebeauti are specifically designed to be suitable for both, providing a versatile addition to your beauty routine. However, it's always a good idea to check the product's label and consult with your eye care professional if you have any concerns."
+    },
+    { 
+    "id":"panel4",
+    "title": "Can I use eyelash enhancing serums if I have sensitive skin or eyes?",
+    "description": "Many eyelash enhancing serums are formulated to be gentle and suitable for sensitive skin and eyes. Look for products that are hypoallergenic, fragrance-free, and contain soothing ingredients like aloe vera and hyaluronic acid. If you experience any irritation or discomfort, discontinue use and consult with a dermatologist or healthcare professional. Always do a patch test before applying the serum to your lash line to ensure you don't have an allergic reaction."
     }
     ]

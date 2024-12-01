@@ -12,7 +12,7 @@ export default function WhyThis() {
 
     return (
         <>
-            <Typography variant='h3' fontFamily={"Oswald"} pb={3}>Why Golden Nutrition Funguss</Typography>
+            <Typography variant='h3' fontFamily={"Oswald"} pb={3}>Why Cutiebeauti Eyelash Enhancer</Typography>
             <Box sx={{backgroundColor: "#f1f1f1", padding: "15px", border: "1px solid rgba(0, 0, 0, 0.12)"}}>
                 <Typography sx={{mb:1}}>{jsonData.introduction}</Typography>
                 <Typography sx={{mb:1}}>{perser(jsonData.text)}</Typography>

@@ -36,8 +36,8 @@ const About = () => {
         <>
             <Helmet>
                 <title>About us</title>
-                <meta name="description" content="Learn about The Consumer Magazine, an independent non-profit organization established in 2016. We are dedicated to ensuring consumers get a fair deal through thorough product evaluations, expert reviews, and valuable insights. Discover our mission, team, and commitment to consumer advocacy." />
-                <meta name="keywords" content="The Consumer Magazine, about us, consumer advocacy, product reviews, non-profit organization, consumer rights, product evaluations, quality and safety, affordability, expert insights" />
+                <meta name="description" content="Learn about Lash Enhancer Reviews, an independent non-profit organization established in 2016. We are dedicated to ensuring consumers get a fair deal through thorough product evaluations, expert reviews, and valuable insights. Discover our mission, team, and commitment to consumer advocacy." />
+                <meta name="keywords" content="Lash Enhancer Reviews, about us, consumer advocacy, product reviews, non-profit organization, consumer rights, product evaluations, quality and safety, affordability, expert insights" />
             </Helmet>
 
             <Box width={"100vw"} sx={{ marginTop: "200px" }}>
@@ -55,7 +55,7 @@ const About = () => {
                                 Who We Are
                             </Typography>
                             <Typography mb={1}>
-                                Established in 2016, The Consumer Magazine is an independent, non-profit organization committed to ensuring consumers get a fair deal.
+                                Established in 2016, Lash Enhancer Reviews is an independent, non-profit organization committed to ensuring consumers get a fair deal.
                                 Navigating the myriad of products available in the market can be daunting. With countless options, finding the one that best suits your needs can be challenging.
                                 That’s where we come in!
                                 We collaborate with non-profit organizations to leverage our expertise for the benefit of consumers like you. Our team of dedicated product researchers and
@@ -79,14 +79,14 @@ const About = () => {
                     <CardMedia
                         component="img"
                         src="specialists.jpg"
-                        alt="The Consumer Magazine"
+                        alt="Lash Enhancer Reviews"
                         sx={{ width: "100%", display: { xs: "none", md: "block" } }}
 
                     />
                     <CardMedia
                         component="img"
                         src="aboutus-mobile.png"
-                        alt="The Consumer Magazine"
+                        alt="Lash Enhancer Reviews"
                         sx={{ width: "100%", display: { xs: "block", md: "none" } }}
 
                     />
@@ -98,7 +98,7 @@ const About = () => {
                         <Grid2 md={7.5}>
                             <Qoute />
                             <Typography mb={1} sx={{ paddingX: { xs: "25px", md: "50px" } }}>
-                                The Consumer Magazine is an independent, non-profit organization dedicated to ensuring consumers get a fair deal. Our work is primarily funded by consumers who subscribe to our member-only information and advice, supporting our research, investigations, and campaigns aimed at helping all consumers. Additional funding comes from business programs, contract work with government agencies, and donations.
+                                Lash Enhancer Reviews is an independent, non-profit organization dedicated to ensuring consumers get a fair deal. Our work is primarily funded by consumers who subscribe to our member-only information and advice, supporting our research, investigations, and campaigns aimed at helping all consumers. Additional funding comes from business programs, contract work with government agencies, and donations.
 
                             </Typography>
                             <Typography mb={1} sx={{ paddingX: { xs: "25px", md: "50px" } }}>
@@ -115,7 +115,7 @@ const About = () => {
                             <CardMedia
                                 component="img"
                                 src="aboutusbottom.png"
-                                alt="The Consumer Magazine"
+                                alt="Lash Enhancer Reviews"
                                 sx={{ width: "100%", display: { xs: "none", md: "block" } }}
 
                             />

@@ -56,7 +56,7 @@ const BlogContent = () => {
                                         <CardMedia
                                             component="img"
                                             src={blogImage}
-                                            alt="The Consumer Magazine"
+                                            alt="Lash Enhancer Reviews"
                                             sx={{ borderRadius: "10px" }}
                                         />
 

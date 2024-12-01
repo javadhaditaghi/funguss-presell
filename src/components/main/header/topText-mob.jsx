@@ -20,7 +20,7 @@ const TopTextMob = () => {
 
             </Grid2>
             <Grid2 xs={6} md={3.5} lg={2.5} sx={{ paddingX: "10px", display: "flex", flexDirection: "column", justifyContent: "flex-end" }}>
-                <QualityCard icon={<Doctor />} bot={-107} title="Professional Specialists" subtitle="Expert advice from certified professionals in toenail care." />
+                <QualityCard icon={<Doctor />} bot={-107} title="Professional Specialists" subtitle="Expert advice from certified professionals in cosmetics care." />
             </Grid2>
 
         </>
