@@ -23,7 +23,7 @@ const MainPage = () => {
         <meta name='description'
           content='Explore the top-rated eyelash serums of 2024, including Cutiebeauti, GrandeLASH-MD, LashFood, Liaison Lash Bond, and REALASH. Each product is evaluated based on formula, user experience, effectiveness, and price, offering insights into natural ingredients, user satisfaction, and safety. Find the best option for longer, fuller lashes today.'
         />
-        {MetaPixel()}
+        {/* {MetaPixel()} */}
       </Helmet>
 
       <DesktopHeader imgURL='headerphoto.jpg' text={<HeaderText />} specialist={<Specialist />} />
