@@ -1,4 +1,4 @@
-import { Typography, Button } from "@mui/material"
+import { Typography, Button, Box } from "@mui/material"
 
 
 
@@ -9,7 +9,7 @@ const TopText = () => {
                 LASH ENHANCER REVIEWS
             </Typography>
             <Typography fontFamily={"Poppins"} color={"#2D3928"} fontSize={{ xs: 28, md: 34, lg: 35, xl: 38 }} fontWeight={600}>
-                The Way to Find the Best Eyelash Enhancing Serum Available
+                The Way to Find the Best Eyelash Enhancer <Box sx={{fontWeight:900, textTransform: "uppercase", display:"inline"}}>that really works!</Box>
             </Typography>
             <Typography fontFamily={"DM Sans"} color={"#3A3A3A"} fontSize={"17.6px"} fontWeight={400} sx={{ display: { xs: "none", md: "block" } }}>
             The #1 Website for Achieving Stunning Lashes with Top-Rated Products

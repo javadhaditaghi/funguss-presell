@@ -49,7 +49,23 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"> <Button
+                        variant="contained"
+                        sx={{
+                          background: "linear-gradient(180deg, #FFA726 0%, #FB8C00 50%, #EF6C00 100%)",
+                          color: "#FFFFFF",
+                          fontWeight: "bold",
+                          padding: "12px 24px",
+                          borderRadius: "8px",
+                          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                          "&:hover": {
+                            background: "linear-gradient(180deg, #FFB74D 0%, #FFA726 50%, #F57C00 100%)",
+                            boxShadow: "0px 6px 14px rgba(0, 0, 0, 0.3)",
+                          },
+                        }}
+                      >
+                        Checkout the Official Website »
+                      </Button></Link>}
                     </Box>
                 </Box>
 
@@ -72,7 +88,23 @@ const ProductCardInfo = ({ product }) => {
 
                     </Box>
                     <Box>
-                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d" }} >Checkout the Official Website »</Button></Link>}
+                        {product.officialWebsite && <Link href={product.officialWebsite} target="__blank"><Button
+                        variant="contained"
+                        sx={{
+                          background: "linear-gradient(180deg, #FFA726 0%, #FB8C00 50%, #EF6C00 100%)",
+                          color: "#FFFFFF",
+                          fontWeight: "bold",
+                          padding: "12px 24px",
+                          borderRadius: "8px",
+                          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                          "&:hover": {
+                            background: "linear-gradient(180deg, #FFB74D 0%, #FFA726 50%, #F57C00 100%)",
+                            boxShadow: "0px 6px 14px rgba(0, 0, 0, 0.3)",
+                          },
+                        }}
+                      >
+                        Checkout the Official Website »
+                      </Button></Link>}
                     </Box>
                 </Box>
 

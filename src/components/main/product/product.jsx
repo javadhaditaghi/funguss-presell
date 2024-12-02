@@ -22,7 +22,23 @@ const Product = () => {
             <ProsandCons product="funguss" />
             
             <Box sx={{ display: "flex", justifyContent: "center", mt: "40px" }}>
-                <Link href={"https://cutiebeauti.com/products/eyelash-enhancer"} target="__blank"> <Button variant="contained" sx={{ background: "linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.20) 49%, rgba(0, 0, 0, 0.15) 51%, rgba(0, 0, 0, 0.05) 100%), #00811d", fontSize: "1.1rem" }} >Checkout the Official Website »</Button></Link>
+                <Link href={"https://cutiebeauti.com/products/eyelash-enhancer"} target="__blank"><Button
+                variant="contained"
+                sx={{
+                  background: "linear-gradient(180deg, #FFA726 0%, #FB8C00 50%, #EF6C00 100%)",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                  padding: "12px 24px",
+                  borderRadius: "8px",
+                  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
+                  "&:hover": {
+                    background: "linear-gradient(180deg, #FFB74D 0%, #FFA726 50%, #F57C00 100%)",
+                    boxShadow: "0px 6px 14px rgba(0, 0, 0, 0.3)",
+                  },
+                }}
+              >
+                Checkout the Official Website »
+              </Button></Link>
             </Box>
 
 
